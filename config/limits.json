@@ -1,0 +1,22 @@
+{
+  "note": "Payment guards. A 402 is paid only when its Solana leg matches network, asset and payTo here and its amount is at or below max_units. Anything else is recorded and left unpaid. Units are USDC base units (6 decimals): 10000 = 0.01 USDC.",
+  "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+  "asset": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+  "daily_cap_units": 1000000,
+  "nansen": {
+    "base_url": "https://api.nansen.ai/api/v1",
+    "payTo": "J7ZvJEspvwP1oRxQZ7mYmNmT22NTm3GWq3t7HEbvPZYx",
+    "observed_on": "2026-10-30",
+    "max_units": { "smart-money/netflow": 50000, "tgm/flow-intelligence": 10000 },
+    "flow_intelligence_max_calls_per_day": 30
+  },
+  "osd": {
+    "base_url": "https://osd.x402jp.com",
+    "raw_base_url": "https://raw.githubusercontent.com/kato9292929/onchain-stock-data/main",
+    "payTo": "4s8XQC2WzRfgH8Xiep7ybnCW11VKRCMwxQF6jknx3VPf",
+    "observed_on": "2026-10-30",
+    "observed_units": 1000,
+    "max_units": 5000,
+    "repurchase_after_days": 7
+  }
+}

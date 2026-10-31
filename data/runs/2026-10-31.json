@@ -1,0 +1,53 @@
+{
+  "day": "2026-10-31",
+  "dry_run": false,
+  "wallet": null,
+  "diff": {
+    "new_pending": 167,
+    "newly_judged": 157,
+    "pending": 167,
+    "judged": 157
+  },
+  "mints": 10,
+  "netflow": {
+    "paid": false,
+    "reason": "PRIVATE_DATA_KEY not set"
+  },
+  "flow_intelligence": {
+    "bought": 0,
+    "of": 10
+  },
+  "osd": {
+    "considered": 5,
+    "bought": 0,
+    "attempts": []
+  },
+  "predictions": {
+    "predictable": 119,
+    "written_a": 119,
+    "written_n": 0,
+    "n_states": {}
+  },
+  "seals": [
+    {
+      "day": "2026-10-31",
+      "sealed": false,
+      "reason": "no wallet"
+    }
+  ],
+  "spent": {
+    "units": 0,
+    "usdc": 0,
+    "cap_usdc": 1
+  },
+  "scored": {
+    "base-rate-v1": {
+      "n": 0,
+      "brier": null
+    },
+    "claude-fable-5-1 (chat)": {
+      "n": 0,
+      "brier": null
+    }
+  }
+}

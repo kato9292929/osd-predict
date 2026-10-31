@@ -1,0 +1,59 @@
+name: osd-predict daily
+
+# 22:00 UTC = 07:00 JST. COST ACTION, capped: every purchase goes through
+# lib/money.mjs, which pays only pinned payTo addresses, at or below the
+# per-call ceilings in config/limits.json, and stops at 1.00 USDC per UTC day.
+# Expected spend: Smart Money Netflows 0.05 + Flow Intelligence 0.01 × up to 30
+# mints + OSD 0.001 × a few = about 0.36 USDC/day at most, typically less.
+# Without SOLANA_SECRET_KEY nothing is bought or sealed; System A still runs.
+
+on:
+  schedule:
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Read every 402 and check it against the limits, pay nothing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: osd-predict-data
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Daily run
+        run: node scripts/run-daily.mjs | tee run.log
+        env:
+          SOLANA_SECRET_KEY: ${{ secrets.SOLANA_SECRET_KEY }}
+          PRIVATE_DATA_KEY: ${{ secrets.PRIVATE_DATA_KEY }}
+          SOLANA_RPC_URL: ${{ secrets.SOLANA_RPC_URL }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
+      # Commit whatever was bought, even if a later step failed: it was paid for.
+      - name: Commit records
+        if: ${{ !cancelled() }}
+        run: |
+          git config user.name "osd-predict-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data private
+          if git diff --staged --quiet; then
+            echo "No change."
+          else
+            git commit -m "chore(daily): $(date -u +%F) records"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi

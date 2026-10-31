@@ -1,0 +1,1116 @@
+{
+  "as_of": "2026-10-31",
+  "pending": [
+    "ext:ext_052463b8",
+    "ext:ext_091ae134",
+    "ext:ext_0e7c50d8",
+    "ext:ext_1ea5441c",
+    "ext:ext_242b8d94",
+    "ext:ext_28fe0e8c",
+    "ext:ext_299ab0d6",
+    "ext:ext_2a929006",
+    "ext:ext_2eae9dca",
+    "ext:ext_2ffca3f9",
+    "ext:ext_355a040f",
+    "ext:ext_3910ff79",
+    "ext:ext_3d991a1d",
+    "ext:ext_3f7cb7f9",
+    "ext:ext_40a2c521",
+    "ext:ext_47436045",
+    "ext:ext_48794915",
+    "ext:ext_61610779",
+    "ext:ext_62d0769e",
+    "ext:ext_6347671e",
+    "ext:ext_65b95eb8",
+    "ext:ext_68b4e648",
+    "ext:ext_6c997add",
+    "ext:ext_6e6406a3",
+    "ext:ext_727b5b83",
+    "ext:ext_74ce1c92",
+    "ext:ext_79ae4d7e",
+    "ext:ext_7ea8d9cf",
+    "ext:ext_810ab0ce",
+    "ext:ext_812e386b",
+    "ext:ext_88cd3fd3",
+    "ext:ext_8a07b22a",
+    "ext:ext_93969b03",
+    "ext:ext_9e52b69b",
+    "ext:ext_acd7060a",
+    "ext:ext_ad600aa5",
+    "ext:ext_b6391ae0",
+    "ext:ext_b87e7d6c",
+    "ext:ext_bebaf49d",
+    "ext:ext_bec78325",
+    "ext:ext_c6a3e93c",
+    "ext:ext_c7732999",
+    "ext:ext_d4b2fa3e",
+    "ext:ext_d74c4194",
+    "ext:ext_dba68057",
+    "ext:ext_def43ec1",
+    "ext:ext_ebbb995d",
+    "ext:ext_f339b830",
+    "ext:ext_f41f7f0a",
+    "irf:irf-1414",
+    "irf:irf-1822",
+    "irf:irf-1870",
+    "irf:irf-1929",
+    "irf:irf-1946",
+    "irf:irf-1968",
+    "irf:irf-1979",
+    "irf:irf-2760",
+    "irf:irf-2802",
+    "irf:irf-3110",
+    "irf:irf-4004",
+    "irf:irf-4062",
+    "irf:irf-5262",
+    "irf:irf-5384",
+    "irf:irf-6258",
+    "irf:irf-6268",
+    "irf:irf-6339",
+    "irf:irf-6379",
+    "irf:irf-6504",
+    "irf:irf-6645",
+    "irf:irf-6962",
+    "irf:irf-7826",
+    "irf:irf-9233",
+    "irf:irf-9348",
+    "irf:irf-9412",
+    "irf:irf-9506",
+    "irf:irf-9533",
+    "jp:2026-08-10:6504",
+    "jp:2026-08-31:2802",
+    "jp:2026-08-31:3110",
+    "jp:2026-08-31:4062",
+    "jp:2026-08-31:4063",
+    "jp:2026-08-31:6146",
+    "jp:2026-08-31:6504",
+    "jp:2026-08-31:6723",
+    "jp:2026-08-31:6787",
+    "jp:2026-08-31:6857",
+    "jp:2026-08-31:8035",
+    "jp:2026-09-14:2802",
+    "jp:2026-09-14:3110",
+    "jp:2026-09-14:4062",
+    "jp:2026-09-14:6146",
+    "jp:2026-09-14:6504",
+    "jp:2026-09-14:6723",
+    "jp:2026-09-14:6787",
+    "jp:2026-09-14:6857",
+    "jp:2026-09-14:6920",
+    "jp:2026-09-14:8035",
+    "jp:2026-09-21:2802",
+    "jp:2026-09-21:3110",
+    "jp:2026-09-21:4062",
+    "jp:2026-09-21:6504",
+    "jp:2026-09-21:6594",
+    "jp:2026-09-21:6787",
+    "jp:2026-09-21:6857",
+    "jp:2026-09-21:6920",
+    "jp:2026-09-21:8035",
+    "jp:2026-10-05:2802",
+    "jp:2026-10-05:3110",
+    "jp:2026-10-05:4062",
+    "jp:2026-10-05:6146",
+    "jp:2026-10-05:6504",
+    "jp:2026-10-05:6723",
+    "jp:2026-10-05:6787",
+    "jp:2026-10-05:6857",
+    "jp:2026-10-05:6920",
+    "jp:2026-10-05:8035",
+    "jp:2026-10-12:3436",
+    "jp:2026-10-12:4004",
+    "jp:2026-10-12:4062",
+    "jp:2026-10-12:6146",
+    "jp:2026-10-12:6504",
+    "jp:2026-10-12:6594",
+    "jp:2026-10-12:6857",
+    "jp:2026-10-12:6981",
+    "jp:2026-10-12:8035",
+    "jp:2026-10-19:3436",
+    "jp:2026-10-19:4062",
+    "jp:2026-10-19:4063",
+    "jp:2026-10-19:6504",
+    "jp:2026-10-19:6525",
+    "jp:2026-10-19:6594",
+    "jp:2026-10-19:6857",
+    "jp:2026-10-19:8035",
+    "us:2026-09-21:ANET",
+    "us:2026-09-21:CAT",
+    "us:2026-09-21:COST",
+    "us:2026-09-21:GOOGL",
+    "us:2026-09-21:META",
+    "us:2026-09-21:MSFT",
+    "us:2026-09-21:NVDA",
+    "us:2026-09-21:TMDX",
+    "us:2026-10-05:ANET",
+    "us:2026-10-05:CAT",
+    "us:2026-10-05:COST",
+    "us:2026-10-05:GOOGL",
+    "us:2026-10-05:META",
+    "us:2026-10-05:MSFT",
+    "us:2026-10-05:NVDA",
+    "us:2026-10-05:TMDX",
+    "us:2026-10-12:ANET",
+    "us:2026-10-12:CAT",
+    "us:2026-10-12:COST",
+    "us:2026-10-12:GOOGL",
+    "us:2026-10-12:META",
+    "us:2026-10-12:MSFT",
+    "us:2026-10-12:NVDA",
+    "us:2026-10-12:TMDX",
+    "us:2026-10-19:ANET",
+    "us:2026-10-19:CAT",
+    "us:2026-10-19:COST",
+    "us:2026-10-19:GOOGL",
+    "us:2026-10-19:LLY",
+    "us:2026-10-19:META",
+    "us:2026-10-19:MSFT",
+    "us:2026-10-19:NVDA",
+    "us:2026-10-19:TMDX",
+    "us:2026-10-19:V"
+  ],
+  "judged": [
+    {
+      "id": "us:2026-06-01:NVDA",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "NVDA"
+    },
+    {
+      "id": "us:2026-06-01:AVGO",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "AVGO"
+    },
+    {
+      "id": "us:2026-06-01:CRDO",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "CRDO"
+    },
+    {
+      "id": "us:2026-06-01:CRWV",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "CRWV"
+    },
+    {
+      "id": "us:2026-06-01:MDB",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "MDB"
+    },
+    {
+      "id": "us:2026-06-01:GTLB",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "GTLB"
+    },
+    {
+      "id": "us:2026-06-01:RKLB",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "RKLB"
+    },
+    {
+      "id": "us:2026-06-01:VKTX",
+      "status": "miss",
+      "kind": "us",
+      "ticker": "VKTX"
+    },
+    {
+      "id": "us:2026-06-01:IBIT",
+      "status": "miss",
+      "kind": "us",
+      "ticker": "IBIT"
+    },
+    {
+      "id": "us:2026-06-01:S",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "S"
+    },
+    {
+      "id": "us:2026-05-25:NVDA",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "NVDA"
+    },
+    {
+      "id": "us:2026-05-25:AVGO",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "AVGO"
+    },
+    {
+      "id": "us:2026-05-25:CRWV",
+      "status": "miss",
+      "kind": "us",
+      "ticker": "CRWV"
+    },
+    {
+      "id": "us:2026-05-25:MDB",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "MDB"
+    },
+    {
+      "id": "us:2026-05-25:LULU",
+      "status": "miss",
+      "kind": "us",
+      "ticker": "LULU"
+    },
+    {
+      "id": "us:2026-05-25:GTLB",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "GTLB"
+    },
+    {
+      "id": "us:2026-05-25:CRDO",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "CRDO"
+    },
+    {
+      "id": "us:2026-05-25:RKLB",
+      "status": "miss",
+      "kind": "us",
+      "ticker": "RKLB"
+    },
+    {
+      "id": "us:2026-05-25:VKTX",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "VKTX"
+    },
+    {
+      "id": "us:2026-05-25:IBIT",
+      "status": "miss",
+      "kind": "us",
+      "ticker": "IBIT"
+    },
+    {
+      "id": "us:2026-05-25:MSFT",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "MSFT"
+    },
+    {
+      "id": "us:2026-05-25:AAPL",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "AAPL"
+    },
+    {
+      "id": "us:2026-05-25:GOOGL",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "GOOGL"
+    },
+    {
+      "id": "us:2026-05-25:AMZN",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "AMZN"
+    },
+    {
+      "id": "us:2026-05-25:META",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "META"
+    },
+    {
+      "id": "us:2026-05-25:TSLA",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "TSLA"
+    },
+    {
+      "id": "us:2026-05-25:COIN",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "COIN"
+    },
+    {
+      "id": "us:2026-05-25:MSTR",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "MSTR"
+    },
+    {
+      "id": "us:2026-09-21:JPM",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "JPM"
+    },
+    {
+      "id": "us:2026-09-21:UNH",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "UNH"
+    },
+    {
+      "id": "us:2026-10-05:JPM",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "JPM"
+    },
+    {
+      "id": "us:2026-10-05:UNH",
+      "status": "miss",
+      "kind": "us",
+      "ticker": "UNH"
+    },
+    {
+      "id": "us:2026-10-12:JPM",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "JPM"
+    },
+    {
+      "id": "us:2026-10-12:UNH",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "UNH"
+    },
+    {
+      "id": "jp:2026-06-22:4062",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "4062"
+    },
+    {
+      "id": "jp:2026-06-22:6857",
+      "status": "partial",
+      "kind": "jp",
+      "ticker": "6857"
+    },
+    {
+      "id": "jp:2026-06-22:2802",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "2802"
+    },
+    {
+      "id": "jp:2026-06-22:3110",
+      "status": "partial",
+      "kind": "jp",
+      "ticker": "3110"
+    },
+    {
+      "id": "jp:2026-06-22:6146",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6146"
+    },
+    {
+      "id": "jp:2026-06-22:6920",
+      "status": "partial",
+      "kind": "jp",
+      "ticker": "6920"
+    },
+    {
+      "id": "jp:2026-06-22:7729",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "7729"
+    },
+    {
+      "id": "jp:2026-06-22:6323",
+      "status": "partial",
+      "kind": "jp",
+      "ticker": "6323"
+    },
+    {
+      "id": "jp:2026-06-22:6967",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6967"
+    },
+    {
+      "id": "jp:2026-06-22:6787",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6787"
+    },
+    {
+      "id": "jp:2026-06-22:6981",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "6981"
+    },
+    {
+      "id": "jp:2026-06-22:6806",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "6806"
+    },
+    {
+      "id": "jp:2026-06-29:4062",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "4062"
+    },
+    {
+      "id": "jp:2026-06-29:6857",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "6857"
+    },
+    {
+      "id": "jp:2026-06-29:6146",
+      "status": "miss",
+      "kind": "jp",
+      "ticker": "6146"
+    },
+    {
+      "id": "jp:2026-06-29:3110",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "3110"
+    },
+    {
+      "id": "jp:2026-06-29:2802",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "2802"
+    },
+    {
+      "id": "jp:2026-06-29:6920",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "6920"
+    },
+    {
+      "id": "jp:2026-06-29:6323",
+      "status": "miss",
+      "kind": "jp",
+      "ticker": "6323"
+    },
+    {
+      "id": "jp:2026-06-29:6787",
+      "status": "partial",
+      "kind": "jp",
+      "ticker": "6787"
+    },
+    {
+      "id": "jp:2026-06-29:7729",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "7729"
+    },
+    {
+      "id": "jp:2026-06-29:6590",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "6590"
+    },
+    {
+      "id": "jp:2026-07-06:6857",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "6857"
+    },
+    {
+      "id": "jp:2026-07-06:4062",
+      "status": "partial",
+      "kind": "jp",
+      "ticker": "4062"
+    },
+    {
+      "id": "jp:2026-07-06:3110",
+      "status": "miss",
+      "kind": "jp",
+      "ticker": "3110"
+    },
+    {
+      "id": "jp:2026-07-06:2802",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "2802"
+    },
+    {
+      "id": "jp:2026-07-06:6146",
+      "status": "miss",
+      "kind": "jp",
+      "ticker": "6146"
+    },
+    {
+      "id": "jp:2026-07-06:6920",
+      "status": "miss",
+      "kind": "jp",
+      "ticker": "6920"
+    },
+    {
+      "id": "jp:2026-07-06:6323",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "6323"
+    },
+    {
+      "id": "jp:2026-07-06:6787",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6787"
+    },
+    {
+      "id": "jp:2026-07-06:7729",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "7729"
+    },
+    {
+      "id": "jp:2026-07-06:6963",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6963"
+    },
+    {
+      "id": "jp:2026-07-13:6857",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "6857"
+    },
+    {
+      "id": "jp:2026-07-13:4062",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "4062"
+    },
+    {
+      "id": "jp:2026-07-13:2802",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "2802"
+    },
+    {
+      "id": "jp:2026-07-13:3110",
+      "status": "partial",
+      "kind": "jp",
+      "ticker": "3110"
+    },
+    {
+      "id": "jp:2026-07-13:6146",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6146"
+    },
+    {
+      "id": "jp:2026-07-13:6920",
+      "status": "miss",
+      "kind": "jp",
+      "ticker": "6920"
+    },
+    {
+      "id": "jp:2026-07-13:6323",
+      "status": "partial",
+      "kind": "jp",
+      "ticker": "6323"
+    },
+    {
+      "id": "jp:2026-07-13:6787",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6787"
+    },
+    {
+      "id": "jp:2026-07-13:6504",
+      "status": "partial",
+      "kind": "jp",
+      "ticker": "6504"
+    },
+    {
+      "id": "jp:2026-07-13:6594",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6594"
+    },
+    {
+      "id": "jp:2026-07-27:6857",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "6857"
+    },
+    {
+      "id": "jp:2026-07-27:4062",
+      "status": "partial",
+      "kind": "jp",
+      "ticker": "4062"
+    },
+    {
+      "id": "jp:2026-07-27:6920",
+      "status": "miss",
+      "kind": "jp",
+      "ticker": "6920"
+    },
+    {
+      "id": "jp:2026-07-27:6146",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6146"
+    },
+    {
+      "id": "jp:2026-07-27:6323",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "6323"
+    },
+    {
+      "id": "jp:2026-07-27:3110",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "3110"
+    },
+    {
+      "id": "jp:2026-07-27:2802",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "2802"
+    },
+    {
+      "id": "jp:2026-07-27:6787",
+      "status": "miss",
+      "kind": "jp",
+      "ticker": "6787"
+    },
+    {
+      "id": "jp:2026-07-27:6981",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "6981"
+    },
+    {
+      "id": "jp:2026-07-27:6594",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6594"
+    },
+    {
+      "id": "jp:2026-08-03:6857",
+      "status": "partial",
+      "kind": "jp",
+      "ticker": "6857"
+    },
+    {
+      "id": "jp:2026-08-03:4062",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "4062"
+    },
+    {
+      "id": "jp:2026-08-03:6146",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6146"
+    },
+    {
+      "id": "jp:2026-08-03:6323",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6323"
+    },
+    {
+      "id": "jp:2026-08-03:3110",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "3110"
+    },
+    {
+      "id": "jp:2026-08-03:2802",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "2802"
+    },
+    {
+      "id": "jp:2026-08-03:6787",
+      "status": "miss",
+      "kind": "jp",
+      "ticker": "6787"
+    },
+    {
+      "id": "jp:2026-08-03:6920",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "6920"
+    },
+    {
+      "id": "jp:2026-08-03:6594",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6594"
+    },
+    {
+      "id": "jp:2026-08-03:6504",
+      "status": "miss",
+      "kind": "jp",
+      "ticker": "6504"
+    },
+    {
+      "id": "jp:2026-08-10:6857",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "6857"
+    },
+    {
+      "id": "jp:2026-08-10:4062",
+      "status": "partial",
+      "kind": "jp",
+      "ticker": "4062"
+    },
+    {
+      "id": "jp:2026-08-10:3110",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "3110"
+    },
+    {
+      "id": "jp:2026-08-10:6146",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "6146"
+    },
+    {
+      "id": "jp:2026-08-10:6787",
+      "status": "partial",
+      "kind": "jp",
+      "ticker": "6787"
+    },
+    {
+      "id": "jp:2026-08-10:6323",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6323"
+    },
+    {
+      "id": "jp:2026-08-10:6920",
+      "status": "partial",
+      "kind": "jp",
+      "ticker": "6920"
+    },
+    {
+      "id": "jp:2026-08-10:2802",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "2802"
+    },
+    {
+      "id": "jp:2026-08-10:6594",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6594"
+    },
+    {
+      "id": "jp:2026-08-24:6857",
+      "status": "partial",
+      "kind": "jp",
+      "ticker": "6857"
+    },
+    {
+      "id": "jp:2026-08-24:8035",
+      "status": "hit",
+      "kind": "jp",
+      "ticker": "8035"
+    },
+    {
+      "id": "jp:2026-08-24:4062",
+      "status": "partial",
+      "kind": "jp",
+      "ticker": "4062"
+    },
+    {
+      "id": "jp:2026-08-24:3110",
+      "status": "miss",
+      "kind": "jp",
+      "ticker": "3110"
+    },
+    {
+      "id": "jp:2026-08-24:6146",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6146"
+    },
+    {
+      "id": "jp:2026-08-24:6787",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6787"
+    },
+    {
+      "id": "jp:2026-08-24:6323",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6323"
+    },
+    {
+      "id": "jp:2026-08-24:6920",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6920"
+    },
+    {
+      "id": "jp:2026-08-24:2802",
+      "status": "miss",
+      "kind": "jp",
+      "ticker": "2802"
+    },
+    {
+      "id": "jp:2026-08-24:6504",
+      "status": "miss",
+      "kind": "jp",
+      "ticker": "6504"
+    },
+    {
+      "id": "jp:2026-09-21:6146",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6146"
+    },
+    {
+      "id": "jp:2026-10-19:6146",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6146"
+    },
+    {
+      "id": "ext:ext_84366d46",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "6954"
+    },
+    {
+      "id": "ext:ext_9e320efd",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "6645"
+    },
+    {
+      "id": "ext:ext_16f285b9",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "6501"
+    },
+    {
+      "id": "ext:ext_a4d22fb1",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "6701"
+    },
+    {
+      "id": "ext:ext_75efcaa6",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "6701"
+    },
+    {
+      "id": "ext:ext_963a9586",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "6702"
+    },
+    {
+      "id": "ext:ext_80e656c4",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "6702"
+    },
+    {
+      "id": "ext:ext_056da472",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "7012"
+    },
+    {
+      "id": "ext:ext_cbbe4399",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "6326"
+    },
+    {
+      "id": "ext:ext_401935ca",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "6758"
+    },
+    {
+      "id": "ext:ext_99d2d4cd",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "9434"
+    },
+    {
+      "id": "ext:ext_3133d2d7",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "9434"
+    },
+    {
+      "id": "ext:ext_b212b262",
+      "status": "miss",
+      "kind": "ext",
+      "ticker": "6506"
+    },
+    {
+      "id": "ext:ext_46db1d3b",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "593A"
+    },
+    {
+      "id": "ext:ext_a8573556",
+      "status": "miss",
+      "kind": "ext",
+      "ticker": "TSLA"
+    },
+    {
+      "id": "ext:ext_46e2873e",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "TER"
+    },
+    {
+      "id": "ext:ext_f9eb17f9",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "ROK"
+    },
+    {
+      "id": "ext:ext_7cd39227",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "AUR"
+    },
+    {
+      "id": "ext:ext_7798e0e0",
+      "status": "partial",
+      "kind": "ext",
+      "ticker": "SYM"
+    },
+    {
+      "id": "ext:ext_b95f5976",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "CGNX"
+    },
+    {
+      "id": "ext:ext_d948833b",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "ZBRA"
+    },
+    {
+      "id": "ext:ext_3014591b",
+      "status": "miss",
+      "kind": "ext",
+      "ticker": "SERV"
+    },
+    {
+      "id": "ext:ext_4c5639ee",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "CAT"
+    },
+    {
+      "id": "ext:ext_815b3fb3",
+      "status": "partial",
+      "kind": "ext",
+      "ticker": "DE"
+    },
+    {
+      "id": "ext:ext_2e00ea17",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "TXN"
+    },
+    {
+      "id": "ext:ext_49e53128",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "QCOM"
+    },
+    {
+      "id": "ext:ext_e5d99360",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "QCOM"
+    },
+    {
+      "id": "ext:ext_2abb2f65",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "MBLY"
+    },
+    {
+      "id": "ext:ext_79400074",
+      "status": "partial",
+      "kind": "ext",
+      "ticker": "MBLY"
+    },
+    {
+      "id": "ext:ext_75169886",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "ON"
+    },
+    {
+      "id": "ext:ext_319d43dd",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "LSCC"
+    },
+    {
+      "id": "ext:ext_623c3936",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "LSCC"
+    },
+    {
+      "id": "ext:ext_90a40b7a",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "OUST"
+    },
+    {
+      "id": "ext:ext_dfd9ab4e",
+      "status": "partial",
+      "kind": "ext",
+      "ticker": "NVDA"
+    },
+    {
+      "id": "ext:ext_5a1f088b",
+      "status": "miss",
+      "kind": "ext",
+      "ticker": "NVDA"
+    },
+    {
+      "id": "ext:ext_b257b0cf",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "ADI"
+    },
+    {
+      "id": "ext:ext_b363c03d",
+      "status": "partial",
+      "kind": "ext",
+      "ticker": "AMBA"
+    },
+    {
+      "id": "ext:ext_1d540193",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "AMBA"
+    },
+    {
+      "id": "ext:ext_a30d322e",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "MU"
+    },
+    {
+      "id": "ext:ext_c3403d06",
+      "status": "hit",
+      "kind": "ext",
+      "ticker": "MU"
+    }
+  ]
+}
