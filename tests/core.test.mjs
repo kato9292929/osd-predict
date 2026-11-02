@@ -287,3 +287,11 @@ test("the shared vocabulary is OSD's, unchanged", () => {
   assert.match(ours, /export const GRACE_DAYS = 7;/);
   assert.match(ours, /us:<week_of>:<ticker>/);
 });
+
+test("the commit step does not fail before private/ exists", () => {
+  // 2026-11-02: the first scheduled run computed everything, then died on
+  // `git add data private` because no key meant no private/ directory.
+  const wf = fs.readFileSync(path.join(REPO, ".github/workflows/daily.yml"), "utf8");
+  assert.ok(!/git add data private/.test(wf));
+  assert.match(wf, /if \[ -d private \]; then git add private; fi/);
+});
