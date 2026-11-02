@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-31",
+  "as_of": "2026-11-02",
   "note": "Brier: lower is better; constant_half is the score of always answering 0.5. by_flow_state is aggregated over System N's scored conditions (no flow values). Smart-money states: Powered by Nansen API (https://nansen.ai).",
   "predictors": {
     "base-rate-v1": {

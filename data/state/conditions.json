@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-31",
+  "as_of": "2026-11-02",
   "source": "OSD public repository (kato9292929/onchain-stock-data)",
   "conditions": [
     {
@@ -723,27 +723,6 @@
       "mints": []
     },
     {
-      "id": "jp:2026-09-14:4062",
-      "kind": "jp",
-      "population": "JP Weekly Selection",
-      "ticker": "4062",
-      "company_name": "イビデン",
-      "week_of": "2026-09-14",
-      "success_condition": "10/31のQ2決算でABF/FCBGA基板事業の稼働率上昇によりセグメント増収率が前年比二桁を超えれば再評価。",
-      "fail_direction": null,
-      "target_date": "2026-10-31",
-      "target_date_source": "verified",
-      "target_date_confirmed": "2026-10-29",
-      "target_date_confirmed_source": "https://www.ibiden.co.jp/ir/calendar/",
-      "target_date_checked_at": "2026-10-28",
-      "thesis": "10/31のQ2決算でABF/FCBGA基板事業の稼働率上昇によりセグメント増収率が前年比二桁を超えれば再評価。",
-      "condition_source": "thesis",
-      "deadline": "2026-10-31",
-      "date_verified": true,
-      "catalyst_type": null,
-      "mints": []
-    },
-    {
       "id": "jp:2026-09-14:2802",
       "kind": "jp",
       "population": "JP Weekly Selection",
@@ -1143,27 +1122,6 @@
       "mints": []
     },
     {
-      "id": "jp:2026-10-19:4062",
-      "kind": "jp",
-      "population": "JP Weekly Selection",
-      "ticker": "4062",
-      "company_name": "イビデン",
-      "week_of": "2026-10-19",
-      "success_condition": "10/31発表のQ2決算でABF基板（AI・高性能サーバ向け）売上が前年同期比+25%超なら需要加速を確認。",
-      "fail_direction": null,
-      "target_date": "2026-10-31",
-      "target_date_source": "verified",
-      "target_date_confirmed": "2026-10-29",
-      "target_date_confirmed_source": "https://www.ibiden.co.jp/ir/calendar/",
-      "target_date_checked_at": "2026-10-28",
-      "thesis": "10/31発表のQ2決算でABF基板（AI・高性能サーバ向け）売上が前年同期比+25%超なら需要加速を確認。",
-      "condition_source": "thesis",
-      "deadline": "2026-10-31",
-      "date_verified": true,
-      "catalyst_type": null,
-      "mints": []
-    },
-    {
       "id": "jp:2026-10-19:6504",
       "kind": "jp",
       "population": "JP Weekly Selection",
@@ -1253,24 +1211,6 @@
       "catalyst_type": "event",
       "source": "series:physical-ai#2",
       "deadline": "2027-03-31",
-      "date_verified": false,
-      "mints": []
-    },
-    {
-      "id": "ext:ext_c7732999",
-      "kind": "ext",
-      "population": "Physical AI（外部 catalyst）",
-      "ticker": "MUJIN",
-      "company_name": "Mujin",
-      "week_of": null,
-      "success_condition": "別軸として、CEOが言及した「夏から秋ごろの出資募集」が2026年10月末までに具体化するか",
-      "fail_direction": "2026年10月末までに出資募集が具体化しないまま推移（期限までに何も出ない＝×）",
-      "target_date": "2026-10-31",
-      "target_date_source": "article（confirmed）",
-      "target_date_confirmed": null,
-      "catalyst_type": "event",
-      "source": "series:physical-ai#2",
-      "deadline": "2026-10-31",
       "date_verified": false,
       "mints": []
     },
