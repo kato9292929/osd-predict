@@ -13,6 +13,12 @@
       "brier": null,
       "by_population": {},
       "calibration": []
+    },
+    "base-rate+nansen-v1": {
+      "n": 0,
+      "brier": null,
+      "by_population": {},
+      "calibration": []
     }
   },
   "constant_half": {

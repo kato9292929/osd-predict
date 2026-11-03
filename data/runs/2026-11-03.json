@@ -1,7 +1,7 @@
 {
   "day": "2026-11-03",
   "dry_run": false,
-  "wallet": null,
+  "wallet": "BZX8o541PVRzwtWuLeeVXtbz2HNcdWja48YwMVPwQfme",
   "diff": {
     "new_pending": 0,
     "newly_judged": 0,
@@ -10,34 +10,85 @@
   },
   "mints": 10,
   "netflow": {
-    "paid": false,
-    "reason": "PRIVATE_DATA_KEY not set"
+    "paid": true,
+    "reason": null,
+    "rows": 10,
+    "with_flow": 2
   },
   "flow_intelligence": {
-    "bought": 0,
+    "bought": 10,
     "of": 10
   },
   "osd": {
     "considered": 5,
-    "bought": 0,
-    "attempts": []
+    "bought": 5,
+    "attempts": [
+      {
+        "ticker": "COST",
+        "paid": true,
+        "reasons": [
+          "never bought"
+        ],
+        "why_not": null
+      },
+      {
+        "ticker": "NVDA",
+        "paid": true,
+        "reasons": [
+          "never bought"
+        ],
+        "why_not": null
+      },
+      {
+        "ticker": "ANET",
+        "paid": true,
+        "reasons": [
+          "never bought"
+        ],
+        "why_not": null
+      },
+      {
+        "ticker": "TSLA",
+        "paid": true,
+        "reasons": [
+          "never bought"
+        ],
+        "why_not": null
+      },
+      {
+        "ticker": "AUR",
+        "paid": true,
+        "reasons": [
+          "never bought"
+        ],
+        "why_not": null
+      }
+    ]
   },
   "predictions": {
     "predictable": 116,
     "written_a": 0,
-    "written_n": 0,
-    "n_states": {}
+    "written_n": 14,
+    "n_states": {
+      "none": 9,
+      "outflow": 5
+    }
   },
   "seals": [
     {
       "day": "2026-10-31",
       "sealed": false,
-      "reason": "no wallet"
+      "reason": "Endpoint URL must start with `http:` or `https:`."
+    },
+    {
+      "day": "2026-11-03",
+      "sealed": false,
+      "reason": "Endpoint URL must start with `http:` or `https:`."
     }
   ],
   "spent": {
-    "units": 0,
-    "usdc": 0,
+    "units": 155000,
+    "usdc": 0.155,
     "cap_usdc": 1
   },
   "scored": {
@@ -46,6 +97,10 @@
       "brier": null
     },
     "claude-fable-5-1 (chat)": {
+      "n": 0,
+      "brier": null
+    },
+    "base-rate+nansen-v1": {
       "n": 0,
       "brier": null
     }
