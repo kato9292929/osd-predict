@@ -15,8 +15,8 @@ export const SOLANA_NETWORK = "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp" as Netwo
 export const ASSET_SOLANA_USDC = "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v";
 /** Receiving address. Defaults to OSD's, which belongs to the same owner. */
 export const PAY_TO_SOLANA =
-  process.env.SOLANA_RECEIVE_ADDRESS ?? "4s8XQC2WzRfgH8Xiep7ybnCW11VKRCMwxQF6jknx3VPf";
-export const PUBLIC_BASE_URL = (process.env.PUBLIC_BASE_URL ?? "https://osd-predict.vercel.app").replace(/\/$/, "");
+  process.env.SOLANA_RECEIVE_ADDRESS || "4s8XQC2WzRfgH8Xiep7ybnCW11VKRCMwxQF6jknx3VPf";
+export const PUBLIC_BASE_URL = (process.env.PUBLIC_BASE_URL || "https://osd-predict.vercel.app").replace(/\/$/, "");
 
 /** 0.01 USDC in base units (6 decimals). */
 export const FLOWS_PRICE_UNITS = "10000";

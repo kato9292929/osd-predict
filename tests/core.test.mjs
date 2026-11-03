@@ -295,3 +295,8 @@ test("the commit step does not fail before private/ exists", () => {
   assert.ok(!/git add data private/.test(wf));
   assert.match(wf, /if \[ -d private \]; then git add private; fi/);
 });
+
+test("an empty SOLANA_RPC_URL (unset Actions secret) falls back to the public RPC", () => {
+  const src = fs.readFileSync(path.join(REPO, "lib", "seal.mjs"), "utf8");
+  assert.match(src, /process\.env\.SOLANA_RPC_URL \|\| "https:\/\/api\.mainnet-beta\.solana\.com"/);
+});
