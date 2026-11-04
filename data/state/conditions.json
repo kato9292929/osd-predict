@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "OSD public repository (kato9292929/onchain-stock-data)",
   "conditions": [
     {
@@ -62,38 +62,6 @@
         {
           "mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
           "symbol": "NVDAx",
-          "issuer": "xStocks (Backed / Kraken)"
-        }
-      ]
-    },
-    {
-      "id": "us:2026-09-21:ANET",
-      "kind": "us",
-      "population": "US Weekly Selection",
-      "ticker": "ANET",
-      "company_name": "Arista Networks Inc",
-      "week_of": "2026-09-21",
-      "success_condition": "10/30前後の決算でクラウドタイタン向け受注(RPO)成長率が前四半期比で加速すれば当たり",
-      "fail_direction": null,
-      "target_date": "2026-10-30",
-      "target_date_source": "verified",
-      "target_date_confirmed": "2026-11-03",
-      "target_date_confirmed_source": "https://www.arista.com/company/news/press-release/24817-pr-20261006",
-      "target_date_checked_at": "2026-10-28",
-      "thesis": "10/30前後の決算でクラウドタイタン向け受注(RPO)成長率が前四半期比で加速すれば当たり",
-      "condition_source": "thesis",
-      "deadline": "2026-11-03",
-      "date_verified": true,
-      "catalyst_type": null,
-      "mints": [
-        {
-          "mint": "Cq6QtvHpXbJWtFaiMhUDtHy8YVZ95gcD1oZ1cohondo",
-          "symbol": "ANETon",
-          "issuer": "Ondo Global Markets"
-        },
-        {
-          "mint": "XsrsM2RgtYxXqxmy4iWgxQJUkkHG1U5wzi74sVNUW8m",
-          "symbol": "ANETx",
           "issuer": "xStocks (Backed / Kraken)"
         }
       ]
