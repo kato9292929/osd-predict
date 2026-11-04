@@ -10,13 +10,13 @@
   },
   "mints": 10,
   "netflow": {
-    "paid": true,
-    "reason": null,
-    "rows": 10,
-    "with_flow": 2
+    "paid": false,
+    "reason": "already bought today",
+    "rows": 0,
+    "with_flow": 0
   },
   "flow_intelligence": {
-    "bought": 10,
+    "bought": 0,
     "of": 10
   },
   "osd": {
@@ -30,23 +30,7 @@
     "written_n": 0,
     "n_states": {}
   },
-  "seals": [
-    {
-      "day": "2026-10-31",
-      "sealed": true,
-      "memo_tx": "2u3X8ArkqM9KgEqFquNGPiwzrENxkivgJsjWr1dHqSdjQPVDve4SaRp1jBw8aWTeu7Y1EPuUgYuaX7N2qDWU2Gkt"
-    },
-    {
-      "day": "2026-11-03",
-      "sealed": true,
-      "memo_tx": "3QvaA7dF8Ubyp7a82fEDN3HU6eUnNBGACw1Gf3dzkp6zD5je8TZAMh511dLhM1Pv8DtmvkaPB1JNDUgDD7UnxK8V"
-    },
-    {
-      "day": "2026-11-04",
-      "sealed": true,
-      "memo_tx": "5sPhq5poLNpzwWBdgp6ijtJwTnTy2gR6kpvkH7QYaunKYtW8FYYPyAnMZ7gHMZCpz3oLUJb6Zz6zZgNx5mi1HyTk"
-    }
-  ],
+  "seals": [],
   "spent": {
     "units": 150000,
     "usdc": 0.15,
