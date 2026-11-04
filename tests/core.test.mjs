@@ -239,7 +239,8 @@ test("the daily run buys within the limits, predicts, keeps netflow private, and
   assert.equal(r.netflow.with_flow, 1);
   assert.equal(r.flow_intelligence.bought, 2, "one per mint");
   assert.equal(r.osd.bought, 1, "NVDA — never bought before");
-  assert.equal(r.spent.units, 50000 + 2 * 10000 + 1000);
+  assert.equal(r.spent.this_run_units, 50000 + 2 * 10000 + 1000);
+  assert.equal(r.spent.today_units, r.spent.this_run_units);
   // MSFT's deadline (confirmed 10-29) has passed; NVDA and 8035 remain.
   assert.equal(r.predictions.predictable, 2);
   assert.equal(r.predictions.written_a, 2);
@@ -256,7 +257,12 @@ test("the daily run buys within the limits, predicts, keeps netflow private, and
 
   // Same day again: nothing re-bought, nothing re-sealed.
   const again = await runDaily({ now: () => "2026-11-01T23:00:00.000Z", osdFiles: osdFixture(), http, fetchImpl, key: KEY, canSeal: true, sealer: async () => "memoTx2" });
-  assert.equal(again.spent.units, r.spent.units);
+  assert.equal(again.spent.this_run_units, 0, "the second run of the day pays nothing");
+  assert.equal(again.spent.today_units, r.spent.today_units, "and says the day's total separately");
+  const runs = fs.readFileSync("data/runs/2026-11-01.jsonl", "utf8").trim().split("\n");
+  assert.equal(runs.length, 2, "both runs' reports are kept");
+  const purchases = fs.readFileSync("data/purchases/2026-11-01.jsonl", "utf8").trim().split("\n").map((l) => JSON.parse(l));
+  assert.equal(purchases.filter((p) => p.paid && p.seller === "nansen").length, 3, "Nansen bought once per key per day");
   assert.equal(again.predictions.written_a, 0, "unchanged predictions are not re-written");
   assert.equal(again.seals.length, 0);
 });
@@ -268,7 +274,7 @@ test("no wallet: System A still runs and nothing is bought or sealed", async () 
   fs.rmSync("private", { recursive: true, force: true });
   const r = await runDaily({ now: () => "2026-11-02T22:00:00.000Z", osdFiles: osdFixture(), http: null, key: KEY, canSeal: false, fetchImpl: async () => { throw new Error("no network expected"); } });
   assert.equal(r.netflow.reason, "no wallet");
-  assert.equal(r.spent.units, 0);
+  assert.equal(r.spent.this_run_units, 0);
   assert.equal(r.predictions.written_a, 2);
   assert.equal(r.seals[0].reason, "no wallet");
 });

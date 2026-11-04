@@ -101,6 +101,11 @@ export async function runDaily({
   const today = now().slice(0, 10);
   const report = { day: today, dry_run: dryRun, wallet: http ? http.address ?? "set" : null };
   const ledger = new Ledger(path.join(DATA, "purchases"), today);
+  // What earlier runs on the same UTC day already paid. The report shows this
+  // run's spend separately: on 2026-11-04 a second run paid nothing (every
+  // purchase refused as "already bought today") yet reported the day's 0.15
+  // as its own, which read as a double purchase.
+  const spentBefore = ledger.spentUnits();
   const H = http?.http ?? http ?? null;
   // No wallet and not a dry run: there is nothing to probe or pay with, so the
   // purchase steps are skipped outright rather than logged as refusals.
@@ -248,10 +253,19 @@ export async function runDaily({
   }
   writeJson(path.join(DATA, "adjustments.json"), adjustFile);
 
-  const spent = ledger.spentUnits();
-  report.spent = { units: spent, usdc: spent / 1e6, cap_usdc: LIMITS.daily_cap_units / 1e6 };
+  const spentToday = ledger.spentUnits();
+  const spentRun = spentToday - spentBefore;
+  report.spent = {
+    this_run_units: spentRun,
+    this_run_usdc: spentRun / 1e6,
+    today_units: spentToday,
+    today_usdc: spentToday / 1e6,
+    cap_usdc: LIMITS.daily_cap_units / 1e6,
+  };
   report.scored = Object.fromEntries(Object.entries(card.predictors).map(([k, v]) => [k, { n: v.n, brier: v.brier }]));
-  writeJson(path.join(DATA, "runs", `${today}.json`), report);
+  // One line per run, appended: a second run on the same day must not erase
+  // the first run's report (2026-11-04's manual run overwrote the scheduled one).
+  appendJsonl(path.join(DATA, "runs", `${today}.jsonl`), [{ ...report, finished_at: now() }]);
   return report;
 }
 
