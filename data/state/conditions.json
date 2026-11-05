@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-04",
+  "as_of": "2026-11-05",
   "source": "OSD public repository (kato9292929/onchain-stock-data)",
   "conditions": [
     {
@@ -152,38 +152,6 @@
       ]
     },
     {
-      "id": "us:2026-10-05:ANET",
-      "kind": "us",
-      "population": "US Weekly Selection",
-      "ticker": "ANET",
-      "company_name": "Arista Networks Inc.",
-      "week_of": "2026-10-05",
-      "success_condition": "11/4のQ3決算でクラウドタイタン向けスイッチング売上が前四半期比+15%を超えれば需要継続を確認",
-      "fail_direction": null,
-      "target_date": "2026-11-04",
-      "target_date_source": "verified",
-      "target_date_confirmed": "2026-11-03",
-      "target_date_confirmed_source": "https://www.arista.com/company/news/press-release/24817-pr-20261006",
-      "target_date_checked_at": "2026-10-28",
-      "thesis": "11/4のQ3決算でクラウドタイタン向けスイッチング売上が前四半期比+15%を超えれば需要継続を確認",
-      "condition_source": "thesis",
-      "deadline": "2026-11-04",
-      "date_verified": true,
-      "catalyst_type": null,
-      "mints": [
-        {
-          "mint": "Cq6QtvHpXbJWtFaiMhUDtHy8YVZ95gcD1oZ1cohondo",
-          "symbol": "ANETon",
-          "issuer": "Ondo Global Markets"
-        },
-        {
-          "mint": "XsrsM2RgtYxXqxmy4iWgxQJUkkHG1U5wzi74sVNUW8m",
-          "symbol": "ANETx",
-          "issuer": "xStocks (Backed / Kraken)"
-        }
-      ]
-    },
-    {
       "id": "us:2026-10-05:TMDX",
       "kind": "us",
       "population": "US Weekly Selection",
@@ -301,27 +269,6 @@
       ]
     },
     {
-      "id": "us:2026-10-12:TMDX",
-      "kind": "us",
-      "population": "US Weekly Selection",
-      "ticker": "TMDX",
-      "company_name": "TransMedics Group Inc",
-      "week_of": "2026-10-12",
-      "success_condition": "11月上旬決算で臓器移植件数・新規NOP施設数が前四半期比で拡大すれば上振れ",
-      "fail_direction": null,
-      "target_date": "2026-11-04",
-      "target_date_source": "未記録",
-      "target_date_confirmed": null,
-      "target_date_confirmed_source": null,
-      "target_date_checked_at": null,
-      "thesis": "11月上旬決算で臓器移植件数・新規NOP施設数が前四半期比で拡大すれば上振れ",
-      "condition_source": "thesis",
-      "deadline": "2026-11-04",
-      "date_verified": false,
-      "catalyst_type": null,
-      "mints": []
-    },
-    {
       "id": "us:2026-10-19:COST",
       "kind": "us",
       "population": "US Weekly Selection",
@@ -381,38 +328,6 @@
         {
           "mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
           "symbol": "NVDAx",
-          "issuer": "xStocks (Backed / Kraken)"
-        }
-      ]
-    },
-    {
-      "id": "us:2026-10-19:ANET",
-      "kind": "us",
-      "population": "US Weekly Selection",
-      "ticker": "ANET",
-      "company_name": "Arista Networks Inc",
-      "week_of": "2026-10-19",
-      "success_condition": "11/4決算でクラウドタイタン向けAIネットワーク機器の受注ガイダンスが前四半期比で上方修正されれば再評価",
-      "fail_direction": null,
-      "target_date": "2026-11-04",
-      "target_date_source": "verified",
-      "target_date_confirmed": "2026-11-03",
-      "target_date_confirmed_source": "https://www.arista.com/company/news/press-release/24817-pr-20261006",
-      "target_date_checked_at": "2026-10-28",
-      "thesis": "11/4決算でクラウドタイタン向けAIネットワーク機器の受注ガイダンスが前四半期比で上方修正されれば再評価",
-      "condition_source": "thesis",
-      "deadline": "2026-11-04",
-      "date_verified": true,
-      "catalyst_type": null,
-      "mints": [
-        {
-          "mint": "Cq6QtvHpXbJWtFaiMhUDtHy8YVZ95gcD1oZ1cohondo",
-          "symbol": "ANETon",
-          "issuer": "Ondo Global Markets"
-        },
-        {
-          "mint": "XsrsM2RgtYxXqxmy4iWgxQJUkkHG1U5wzi74sVNUW8m",
-          "symbol": "ANETx",
           "issuer": "xStocks (Backed / Kraken)"
         }
       ]
@@ -938,27 +853,6 @@
       "thesis": "11/5の2Q決算でHBM向けメモリテスタ受注が前年同期比30%超増となり通期予想が上方修正されれば当たり。",
       "condition_source": "thesis",
       "deadline": "2026-11-05",
-      "date_verified": true,
-      "catalyst_type": null,
-      "mints": []
-    },
-    {
-      "id": "jp:2026-10-12:4062",
-      "kind": "jp",
-      "population": "JP Weekly Selection",
-      "ticker": "4062",
-      "company_name": "イビデン",
-      "week_of": "2026-10-12",
-      "success_condition": "11/4の2Q決算でABF基板のデータセンター向け出荷が前年同期比20%超増となれば当たり。",
-      "fail_direction": null,
-      "target_date": "2026-11-04",
-      "target_date_source": "verified",
-      "target_date_confirmed": "2026-10-29",
-      "target_date_confirmed_source": "https://www.ibiden.co.jp/ir/calendar/",
-      "target_date_checked_at": "2026-10-28",
-      "thesis": "11/4の2Q決算でABF基板のデータセンター向け出荷が前年同期比20%超増となれば当たり。",
-      "condition_source": "thesis",
-      "deadline": "2026-11-04",
       "date_verified": true,
       "catalyst_type": null,
       "mints": []
