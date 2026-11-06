@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-05",
+  "as_of": "2026-11-06",
   "pending": [
     "ext:ext_052463b8",
     "ext:ext_091ae134",
@@ -76,13 +76,11 @@
     "irf:irf-9348",
     "irf:irf-9412",
     "irf:irf-9506",
-    "irf:irf-9533",
     "jp:2026-08-10:6504",
     "jp:2026-08-31:2802",
     "jp:2026-08-31:3110",
     "jp:2026-08-31:4062",
     "jp:2026-08-31:4063",
-    "jp:2026-08-31:6146",
     "jp:2026-08-31:6504",
     "jp:2026-08-31:6723",
     "jp:2026-08-31:6787",
@@ -91,7 +89,6 @@
     "jp:2026-09-14:2802",
     "jp:2026-09-14:3110",
     "jp:2026-09-14:4062",
-    "jp:2026-09-14:6146",
     "jp:2026-09-14:6504",
     "jp:2026-09-14:6723",
     "jp:2026-09-14:6787",
@@ -110,7 +107,6 @@
     "jp:2026-10-05:2802",
     "jp:2026-10-05:3110",
     "jp:2026-10-05:4062",
-    "jp:2026-10-05:6146",
     "jp:2026-10-05:6504",
     "jp:2026-10-05:6723",
     "jp:2026-10-05:6787",
@@ -137,37 +133,27 @@
     "us:2026-09-21:ANET",
     "us:2026-09-21:CAT",
     "us:2026-09-21:COST",
-    "us:2026-09-21:GOOGL",
     "us:2026-09-21:META",
-    "us:2026-09-21:MSFT",
     "us:2026-09-21:NVDA",
     "us:2026-09-21:TMDX",
     "us:2026-10-05:ANET",
     "us:2026-10-05:CAT",
     "us:2026-10-05:COST",
-    "us:2026-10-05:GOOGL",
     "us:2026-10-05:META",
-    "us:2026-10-05:MSFT",
     "us:2026-10-05:NVDA",
     "us:2026-10-05:TMDX",
     "us:2026-10-12:ANET",
     "us:2026-10-12:CAT",
     "us:2026-10-12:COST",
-    "us:2026-10-12:GOOGL",
     "us:2026-10-12:META",
-    "us:2026-10-12:MSFT",
     "us:2026-10-12:NVDA",
     "us:2026-10-12:TMDX",
     "us:2026-10-19:ANET",
     "us:2026-10-19:CAT",
     "us:2026-10-19:COST",
-    "us:2026-10-19:GOOGL",
     "us:2026-10-19:LLY",
-    "us:2026-10-19:META",
-    "us:2026-10-19:MSFT",
     "us:2026-10-19:NVDA",
-    "us:2026-10-19:TMDX",
-    "us:2026-10-19:V"
+    "us:2026-10-19:TMDX"
   ],
   "judged": [
     {
@@ -339,6 +325,18 @@
       "ticker": "MSTR"
     },
     {
+      "id": "us:2026-09-21:MSFT",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "MSFT"
+    },
+    {
+      "id": "us:2026-09-21:GOOGL",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "GOOGL"
+    },
+    {
       "id": "us:2026-09-21:JPM",
       "status": "hit",
       "kind": "us",
@@ -349,6 +347,18 @@
       "status": "partial",
       "kind": "us",
       "ticker": "UNH"
+    },
+    {
+      "id": "us:2026-10-05:MSFT",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "MSFT"
+    },
+    {
+      "id": "us:2026-10-05:GOOGL",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "GOOGL"
     },
     {
       "id": "us:2026-10-05:JPM",
@@ -363,6 +373,18 @@
       "ticker": "UNH"
     },
     {
+      "id": "us:2026-10-12:MSFT",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "MSFT"
+    },
+    {
+      "id": "us:2026-10-12:GOOGL",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "GOOGL"
+    },
+    {
       "id": "us:2026-10-12:JPM",
       "status": "hit",
       "kind": "us",
@@ -373,6 +395,30 @@
       "status": "partial",
       "kind": "us",
       "ticker": "UNH"
+    },
+    {
+      "id": "us:2026-10-19:MSFT",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "MSFT"
+    },
+    {
+      "id": "us:2026-10-19:GOOGL",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "GOOGL"
+    },
+    {
+      "id": "us:2026-10-19:META",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "META"
+    },
+    {
+      "id": "us:2026-10-19:V",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "V"
     },
     {
       "id": "jp:2026-06-22:4062",
@@ -801,6 +847,12 @@
       "ticker": "6594"
     },
     {
+      "id": "jp:2026-08-31:6146",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6146"
+    },
+    {
       "id": "jp:2026-08-24:6857",
       "status": "partial",
       "kind": "jp",
@@ -862,6 +914,18 @@
     },
     {
       "id": "jp:2026-09-21:6146",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6146"
+    },
+    {
+      "id": "jp:2026-09-14:6146",
+      "status": "na",
+      "kind": "jp",
+      "ticker": "6146"
+    },
+    {
+      "id": "jp:2026-10-05:6146",
       "status": "na",
       "kind": "jp",
       "ticker": "6146"
@@ -1111,6 +1175,12 @@
       "status": "hit",
       "kind": "ext",
       "ticker": "MU"
+    },
+    {
+      "id": "irf:irf-9533",
+      "status": "partial",
+      "kind": "irf",
+      "ticker": "9533"
     }
   ]
 }

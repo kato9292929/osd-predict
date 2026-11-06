@@ -1,0 +1,13 @@
+[
+  {
+    "sealed_at": "2026-11-06T02:01:20.610Z",
+    "files": {
+      "predictions/2026-11-06.jsonl": "13dc58de3ef011e5c0ce066f6ce7af1708ad518b5f7a52c10af221c070c70d5f",
+      "flows-public/2026-11-06.jsonl": "3ce9528a4125d4e6e990e4464f41adad5a20f43f51a4497a0c881d003d6f2faa",
+      "private/flows/2026-11-06.jsonl (plaintext)": "7b841b8287825f38e5bc89145c6a5a162279e06831292d7a236b6281e707b4d6",
+      "private/predictions-n/2026-11-06.jsonl (plaintext)": "7d34293593b4b28aefb4880392a273272219cb17a668e28bb74daad5bcca8f06"
+    },
+    "memo": "osd-predict|2026-11-06|pred=13dc58de3ef011e5c0ce066f6ce7af1708ad518b5f7a52c10af221c070c70d5f|fi=3ce9528a4125d4e6e990e4464f41adad5a20f43f51a4497a0c881d003d6f2faa|flows=7b841b8287825f38e5bc89145c6a5a162279e06831292d7a236b6281e707b4d6|predn=7d34293593b4b28aefb4880392a273272219cb17a668e28bb74daad5bcca8f06",
+    "memo_tx": "5bT8yhVYhKtLnZZLuWGHuU1JYQgLpkrGMa2NnKgvFMNo9NZRvsoCpPZ53jpxfDXH3LRXhRCKNUYdjtMRPg6WXY2B"
+  }
+]
