@@ -1,0 +1,13 @@
+[
+  {
+    "sealed_at": "2026-11-08T01:10:59.629Z",
+    "files": {
+      "predictions/2026-11-08.jsonl": "ee899230c8b40a5a7d32263f1a64261af0800c3ab7b9ed45afc19d4cf646ff07",
+      "flows-public/2026-11-08.jsonl": "ed7fba17db2986d579b9cc06e948f04bf5093ba829c48e7c14f8719a4ccb53f8",
+      "private/flows/2026-11-08.jsonl (plaintext)": "77b5dd578bf37f332a2ea7fc1b19ebea89262743610a576e50b44276f0a7b9f6",
+      "private/predictions-n/2026-11-08.jsonl (plaintext)": "21b2243de2e7c1b6135b65972f3abae6fa5f881995221d6d05e64faf3742c3d8"
+    },
+    "memo": "osd-predict|2026-11-08|pred=ee899230c8b40a5a7d32263f1a64261af0800c3ab7b9ed45afc19d4cf646ff07|fi=ed7fba17db2986d579b9cc06e948f04bf5093ba829c48e7c14f8719a4ccb53f8|flows=77b5dd578bf37f332a2ea7fc1b19ebea89262743610a576e50b44276f0a7b9f6|predn=21b2243de2e7c1b6135b65972f3abae6fa5f881995221d6d05e64faf3742c3d8",
+    "memo_tx": "5gSCeHw7DZVLFdmkmSu984Z33cR68S5QH48HXDk8qMh66xX7vNuKvHQsUZMci8E65NvWBEMJLvpQmW1bWZtzy4Du"
+  }
+]
