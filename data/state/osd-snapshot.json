@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08",
+  "as_of": "2026-11-09",
   "pending": [
     "ext:ext_00ac551c",
     "ext:ext_052463b8",
@@ -84,11 +84,8 @@
     "ext:ext_9e52b69b",
     "ext:ext_a0f484b0",
     "ext:ext_a2889496",
-    "ext:ext_a28be648",
     "ext:ext_a3eaf431",
     "ext:ext_a6a525ec",
-    "ext:ext_a6f53848",
-    "ext:ext_aa265ca0",
     "ext:ext_ab144235",
     "ext:ext_ab45dd5d",
     "ext:ext_ab787473",
@@ -116,7 +113,6 @@
     "ext:ext_d8f2d325",
     "ext:ext_dba68057",
     "ext:ext_def43ec1",
-    "ext:ext_e0785097",
     "ext:ext_ebbb995d",
     "ext:ext_ebfef08d",
     "ext:ext_f0b8bc45",
@@ -206,27 +202,19 @@
     "jp:2026-10-19:6857",
     "jp:2026-10-19:8035",
     "us:2026-09-21:ANET",
-    "us:2026-09-21:CAT",
     "us:2026-09-21:COST",
-    "us:2026-09-21:META",
     "us:2026-09-21:NVDA",
     "us:2026-09-21:TMDX",
     "us:2026-10-05:ANET",
-    "us:2026-10-05:CAT",
     "us:2026-10-05:COST",
-    "us:2026-10-05:META",
     "us:2026-10-05:NVDA",
     "us:2026-10-05:TMDX",
     "us:2026-10-12:ANET",
-    "us:2026-10-12:CAT",
     "us:2026-10-12:COST",
-    "us:2026-10-12:META",
     "us:2026-10-12:NVDA",
     "us:2026-10-12:TMDX",
     "us:2026-10-19:ANET",
-    "us:2026-10-19:CAT",
     "us:2026-10-19:COST",
-    "us:2026-10-19:LLY",
     "us:2026-10-19:NVDA",
     "us:2026-10-19:TMDX"
   ],
@@ -412,6 +400,12 @@
       "ticker": "GOOGL"
     },
     {
+      "id": "us:2026-09-21:META",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "META"
+    },
+    {
       "id": "us:2026-09-21:JPM",
       "status": "hit",
       "kind": "us",
@@ -422,6 +416,12 @@
       "status": "partial",
       "kind": "us",
       "ticker": "UNH"
+    },
+    {
+      "id": "us:2026-09-21:CAT",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "CAT"
     },
     {
       "id": "us:2026-10-05:MSFT",
@@ -436,6 +436,12 @@
       "ticker": "GOOGL"
     },
     {
+      "id": "us:2026-10-05:META",
+      "status": "partial",
+      "kind": "us",
+      "ticker": "META"
+    },
+    {
       "id": "us:2026-10-05:JPM",
       "status": "hit",
       "kind": "us",
@@ -446,6 +452,12 @@
       "status": "miss",
       "kind": "us",
       "ticker": "UNH"
+    },
+    {
+      "id": "us:2026-10-05:CAT",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "CAT"
     },
     {
       "id": "us:2026-10-12:MSFT",
@@ -472,6 +484,18 @@
       "ticker": "UNH"
     },
     {
+      "id": "us:2026-10-12:CAT",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "CAT"
+    },
+    {
+      "id": "us:2026-10-12:META",
+      "status": "na",
+      "kind": "us",
+      "ticker": "META"
+    },
+    {
       "id": "us:2026-10-19:MSFT",
       "status": "partial",
       "kind": "us",
@@ -494,6 +518,18 @@
       "status": "partial",
       "kind": "us",
       "ticker": "V"
+    },
+    {
+      "id": "us:2026-10-19:LLY",
+      "status": "miss",
+      "kind": "us",
+      "ticker": "LLY"
+    },
+    {
+      "id": "us:2026-10-19:CAT",
+      "status": "hit",
+      "kind": "us",
+      "ticker": "CAT"
     },
     {
       "id": "jp:2026-06-22:4062",
@@ -1250,6 +1286,30 @@
       "status": "hit",
       "kind": "ext",
       "ticker": "MU"
+    },
+    {
+      "id": "ext:ext_a6f53848",
+      "status": "miss",
+      "kind": "ext",
+      "ticker": "TENSORWAVE"
+    },
+    {
+      "id": "ext:ext_e0785097",
+      "status": "miss",
+      "kind": "ext",
+      "ticker": "CIFR"
+    },
+    {
+      "id": "ext:ext_a28be648",
+      "status": "partial",
+      "kind": "ext",
+      "ticker": "APLD"
+    },
+    {
+      "id": "ext:ext_aa265ca0",
+      "status": "miss",
+      "kind": "ext",
+      "ticker": "CIFR"
     },
     {
       "id": "irf:irf-9533",
