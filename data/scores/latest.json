@@ -1,12 +1,24 @@
 {
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-10",
   "note": "Brier: lower is better; constant_half is the score of always answering 0.5. by_flow_state is aggregated over System N's scored conditions (no flow values). Smart-money states: Powered by Nansen API (https://nansen.ai).",
   "predictors": {
     "base-rate-v1": {
-      "n": 0,
-      "brier": null,
-      "by_population": {},
-      "calibration": []
+      "n": 1,
+      "brier": 0.1576,
+      "by_population": {
+        "jp": {
+          "n": 1,
+          "brier": 0.1576
+        }
+      },
+      "calibration": [
+        {
+          "band": "0.6-0.7",
+          "n": 1,
+          "mean_p": 0.603,
+          "hit_rate": 1
+        }
+      ]
     },
     "claude-fable-5-1 (chat)": {
       "n": 0,
@@ -22,7 +34,7 @@
     }
   },
   "constant_half": {
-    "n": 0,
-    "brier": null
+    "n": 1,
+    "brier": 0.25
   }
 }
