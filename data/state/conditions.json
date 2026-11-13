@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "source": "OSD public repository (kato9292929/onchain-stock-data)",
   "conditions": [
     {
@@ -190,70 +190,6 @@
         {
           "mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
           "symbol": "NVDAx",
-          "issuer": "xStocks (Backed / Kraken)"
-        }
-      ]
-    },
-    {
-      "id": "us:2026-11-09:AMAT",
-      "kind": "us",
-      "population": "US Weekly Selection",
-      "ticker": "AMAT",
-      "company_name": "Applied Materials",
-      "week_of": "2026-11-09",
-      "success_condition": "11/12発表のQ4 FY2026決算で、売上高が会社ガイダンス中央値102.5億ドル以上なら当たり。",
-      "fail_direction": null,
-      "target_date": "2026-11-12",
-      "target_date_source": "verified",
-      "target_date_confirmed": null,
-      "target_date_confirmed_source": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fourth-quarter-and-fiscal-2026-results",
-      "target_date_checked_at": "2026-11-09",
-      "thesis": "11/12発表のQ4 FY2026決算で、売上高が会社ガイダンス中央値102.5億ドル以上なら当たり。",
-      "condition_source": "thesis",
-      "deadline": "2026-11-12",
-      "date_verified": true,
-      "catalyst_type": null,
-      "mints": [
-        {
-          "mint": "7eRX747PSbVtGVx3qD5UFdkNM2BfTy86ikUiCMhondo",
-          "symbol": "AMATon",
-          "issuer": "Ondo Global Markets"
-        },
-        {
-          "mint": "XsQZdaWUAGC4R3fgD2N1fupKvJfJq6YM51ccnsLUWFA",
-          "symbol": "AMATx",
-          "issuer": "xStocks (Backed / Kraken)"
-        }
-      ]
-    },
-    {
-      "id": "us:2026-11-09:CSCO",
-      "kind": "us",
-      "population": "US Weekly Selection",
-      "ticker": "CSCO",
-      "company_name": "Cisco Systems",
-      "week_of": "2026-11-09",
-      "success_condition": "11/12発表のQ1 FY2027決算で、売上高が会社ガイダンス中央値181億ドル以上なら当たり。",
-      "fail_direction": null,
-      "target_date": "2026-11-12",
-      "target_date_source": "verified",
-      "target_date_confirmed": null,
-      "target_date_confirmed_source": "https://investor.cisco.com/news/news-details/2026/Cisco-Schedules-Conference-Call-for-Q1-Fiscal-Year-2027-Financial-Results/default.aspx",
-      "target_date_checked_at": "2026-11-09",
-      "thesis": "11/12発表のQ1 FY2027決算で、売上高が会社ガイダンス中央値181億ドル以上なら当たり。",
-      "condition_source": "thesis",
-      "deadline": "2026-11-12",
-      "date_verified": true,
-      "catalyst_type": null,
-      "mints": [
-        {
-          "mint": "7DWcZE1uVc8m2mf9pV8KNov28ET7HsvHkhrhgr9ondo",
-          "symbol": "CSCOon",
-          "issuer": "Ondo Global Markets"
-        },
-        {
-          "mint": "Xsr3pdLQyXvDJBFgpR5nexCEZwXvigb8wbPYp4YoNFf",
-          "symbol": "CSCOx",
           "issuer": "xStocks (Backed / Kraken)"
         }
       ]
