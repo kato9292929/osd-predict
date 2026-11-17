@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-16",
+  "as_of": "2026-11-17",
   "source": "OSD public repository (kato9292929/onchain-stock-data)",
   "conditions": [
     {
@@ -321,27 +321,6 @@
           "issuer": "xStocks (Backed / Kraken)"
         }
       ]
-    },
-    {
-      "id": "jp:2026-11-09:3905",
-      "kind": "jp",
-      "population": "JP Weekly Selection",
-      "ticker": "3905",
-      "company_name": "データセクション",
-      "week_of": "2026-11-09",
-      "success_condition": "11/16発表の2027年3月期Q2決算で、通期売上高の会社予想1,621.9億円を据え置きまたは上方修正すれば当たり。",
-      "fail_direction": null,
-      "target_date": "2026-11-16",
-      "target_date_source": "verified",
-      "target_date_confirmed": null,
-      "target_date_confirmed_source": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1106.xlsx",
-      "target_date_checked_at": "2026-11-09",
-      "thesis": "11/16発表の2027年3月期Q2決算で、通期売上高の会社予想1,621.9億円を据え置きまたは上方修正すれば当たり。",
-      "condition_source": "thesis",
-      "deadline": "2026-11-16",
-      "date_verified": true,
-      "catalyst_type": null,
-      "mints": []
     },
     {
       "id": "ext:ext_9e52b69b",
@@ -1761,42 +1740,6 @@
       "catalyst_type": "event",
       "source": "theme:neocloud-us",
       "deadline": "2027-01-31",
-      "date_verified": false,
-      "mints": []
-    },
-    {
-      "id": "ext:ext_242b9f98",
-      "kind": "ext",
-      "population": "Physical AI（外部 catalyst）",
-      "ticker": "3905",
-      "company_name": "データセクション",
-      "week_of": null,
-      "success_condition": "第2四半期決算で通期予想（売上1,621.9億円・営業利益248.2億円）を据え置く",
-      "fail_direction": "通期予想の下方修正、または大型案件の計上時期の後ろ倒し",
-      "target_date": "2026-11-16",
-      "target_date_source": "article（confirmed）",
-      "target_date_confirmed": null,
-      "catalyst_type": "fixed_date",
-      "source": "theme:neocloud-jp",
-      "deadline": "2026-11-16",
-      "date_verified": false,
-      "mints": []
-    },
-    {
-      "id": "ext:ext_3dbe0863",
-      "kind": "ext",
-      "population": "Physical AI（外部 catalyst）",
-      "ticker": "3905",
-      "company_name": "データセクション",
-      "week_of": null,
-      "success_condition": "第2四半期累計の売上が通期予想の25%以上",
-      "fail_direction": null,
-      "target_date": "2026-11-16",
-      "target_date_source": "article（confirmed）",
-      "target_date_confirmed": null,
-      "catalyst_type": "fixed_date",
-      "source": "theme:neocloud-jp",
-      "deadline": "2026-11-16",
       "date_verified": false,
       "mints": []
     },
