@@ -1,0 +1,11 @@
+[
+  {
+    "sealed_at": "2026-11-18T03:23:09.309Z",
+    "files": {
+      "flows-public/2026-11-18.jsonl": "bcab664f21984018fc02b894c7af2800f2ad965e6b4f7bbacb0c5ea0efc2c985",
+      "private/flows/2026-11-18.jsonl (plaintext)": "119865958b7287f41c99ea2c0ecdae3a5e8bce65fed213f7d00b752bfe51fc31"
+    },
+    "memo": "osd-predict|2026-11-18|fi=bcab664f21984018fc02b894c7af2800f2ad965e6b4f7bbacb0c5ea0efc2c985|flows=119865958b7287f41c99ea2c0ecdae3a5e8bce65fed213f7d00b752bfe51fc31",
+    "memo_tx": "4Mpj7E9r3VDP3VECZdmnayX4SjpFDngsBDE5m6fBP1u99azbH1a9EB5Fm1yUnNaSXUXd83Qa4PB2H7MW4HwCZv8A"
+  }
+]

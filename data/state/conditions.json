@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "source": "OSD public repository (kato9292929/onchain-stock-data)",
   "conditions": [
     {
@@ -147,38 +147,6 @@
       "thesis": "11/19決算でデータセンター売上が前年比+50%超を維持しBlackwell/Rubin出荷ガイダンスが上方修正されれば上振れ、下回れば信用スプレッド懸念と相まって調整リスク大",
       "condition_source": "thesis",
       "deadline": "2026-11-19",
-      "date_verified": true,
-      "catalyst_type": null,
-      "mints": [
-        {
-          "mint": "gEGtLTPNQ7jcg25zTetkbmF7teoDLcrfTnQfmn2ondo",
-          "symbol": "NVDAon",
-          "issuer": "Ondo Global Markets"
-        },
-        {
-          "mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
-          "symbol": "NVDAx",
-          "issuer": "xStocks (Backed / Kraken)"
-        }
-      ]
-    },
-    {
-      "id": "us:2026-11-09:NVDA",
-      "kind": "us",
-      "population": "US Weekly Selection",
-      "ticker": "NVDA",
-      "company_name": "NVIDIA",
-      "week_of": "2026-11-09",
-      "success_condition": "11/17発表のQ3 FY2027決算で、売上高が会社ガイダンス中央値1,080億ドル以上なら当たり。",
-      "fail_direction": null,
-      "target_date": "2026-11-17",
-      "target_date_source": "verified",
-      "target_date_confirmed": null,
-      "target_date_confirmed_source": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
-      "target_date_checked_at": "2026-11-09",
-      "thesis": "11/17発表のQ3 FY2027決算で、売上高が会社ガイダンス中央値1,080億ドル以上なら当たり。",
-      "condition_source": "thesis",
-      "deadline": "2026-11-17",
       "date_verified": true,
       "catalyst_type": null,
       "mints": [
