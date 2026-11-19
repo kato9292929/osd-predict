@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "source": "OSD public repository (kato9292929/onchain-stock-data)",
   "conditions": [
     {
@@ -158,38 +158,6 @@
         {
           "mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
           "symbol": "NVDAx",
-          "issuer": "xStocks (Backed / Kraken)"
-        }
-      ]
-    },
-    {
-      "id": "us:2026-11-09:PANW",
-      "kind": "us",
-      "population": "US Weekly Selection",
-      "ticker": "PANW",
-      "company_name": "Palo Alto Networks",
-      "week_of": "2026-11-09",
-      "success_condition": "11/18発表のQ1 FY2027決算で、Next-Generation Security ARRが会社ガイダンス上限95.6億ドル以上なら当たり。",
-      "fail_direction": null,
-      "target_date": "2026-11-18",
-      "target_date_source": "verified",
-      "target_date_confirmed": null,
-      "target_date_confirmed_source": "https://stockhub.kr/en/newswire/prn/302927448",
-      "target_date_checked_at": "2026-11-09",
-      "thesis": "11/18発表のQ1 FY2027決算で、Next-Generation Security ARRが会社ガイダンス上限95.6億ドル以上なら当たり。",
-      "condition_source": "thesis",
-      "deadline": "2026-11-18",
-      "date_verified": true,
-      "catalyst_type": null,
-      "mints": [
-        {
-          "mint": "M7hVQomhw4Q2D2op3HvBrZjHu9SryjNvD5haEZ1ondo",
-          "symbol": "PANWon",
-          "issuer": "Ondo Global Markets"
-        },
-        {
-          "mint": "XsQ6NfzzLH8nspjrB9X8R2K64Zz7Tnxqu12juDiMPMW",
-          "symbol": "PANWx",
           "issuer": "xStocks (Backed / Kraken)"
         }
       ]
@@ -3002,6 +2970,560 @@
       "deadline": "2026-12-31",
       "date_verified": false,
       "mints": []
+    },
+    {
+      "id": "ext:ext_7da47972",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "A",
+      "company_name": "Agilent Technologies, Inc.",
+      "week_of": null,
+      "success_condition": "Q4 FY2026 Revenue >= 1,980 USD mn (quarter ending 2026-10-31)",
+      "fail_direction": null,
+      "target_date": "2026-11-24",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2026-11-24",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "Xs5drDwMFxkcChq5cU49EX2oTQUVWQ64qsSL5bVQoS3",
+          "symbol": "Ax",
+          "issuer": "xStocks (Backed / Kraken)"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_9f528845",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "AA",
+      "company_name": "Alcoa Corp",
+      "week_of": null,
+      "success_condition": "Q4 FY2026 Revenue >= 3,500 USD mn (quarter ending 2026-12-31)",
+      "fail_direction": null,
+      "target_date": "2027-01-21",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2027-01-21",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "Xs2XDRGh6AhivmYgaVa8woDGKGccR1WnnGnw9vqSWD9",
+          "symbol": "AAx",
+          "issuer": "xStocks (Backed / Kraken)"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_322605a4",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "AAL",
+      "company_name": "American Airlines Group Inc.",
+      "week_of": null,
+      "success_condition": "Q4 FY2026 Revenue >= 16,729 USD mn (quarter ending 2026-12-31)",
+      "fail_direction": null,
+      "target_date": "2027-01-22",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2027-01-22",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "9wYZetvT8J2ptfsRca5gzLBGvcUug38mp9yT3xaondo",
+          "symbol": "AALon",
+          "issuer": "Ondo Global Markets"
+        },
+        {
+          "mint": "XsrisVGB3qU1p3KGR7fg4JuxHkeCpdPtByJpYLB4pbH",
+          "symbol": "AALx",
+          "issuer": "xStocks (Backed / Kraken)"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_4b57c5dc",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "AAOI",
+      "company_name": "Applied Optoelectronics, Inc.",
+      "week_of": null,
+      "success_condition": "Q4 FY2026 Revenue >= 385 USD mn (quarter ending 2026-12-31)",
+      "fail_direction": null,
+      "target_date": "2027-02-19",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2027-02-19",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "YuFZvc8JCN3a6BUAqwnbY4AnhuVEXD4V7QnBTmwondo",
+          "symbol": "AAOIon",
+          "issuer": "Ondo Global Markets"
+        },
+        {
+          "mint": "XsGHwSbPaUJu6r5dtJLHXkXenPgCQf4Sx2hb4e2sbCZ",
+          "symbol": "AAOIx",
+          "issuer": "xStocks (Backed / Kraken)"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_78d22e91",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "AAON",
+      "company_name": "AAON, Inc.",
+      "week_of": null,
+      "success_condition": "Q4 FY2026 Operating income >= 80 USD mn (quarter ending 2026-12-31)",
+      "fail_direction": null,
+      "target_date": "2027-02-26",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2027-02-26",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "nwPWRVFCbU3cdXWdJsuwomC5u459xPFdP2vYsmVondo",
+          "symbol": "AAONon",
+          "issuer": "Ondo Global Markets"
+        },
+        {
+          "mint": "XsvFzSYaLgkoB2iHQiSMhf6e5bVcRThJZvRPiySbhjq",
+          "symbol": "AAONx",
+          "issuer": "xStocks (Backed / Kraken)"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_89152af4",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "AAPL",
+      "company_name": "Apple Inc.",
+      "week_of": null,
+      "success_condition": "Q1 FY2027 Revenue >= 153,820 USD mn (quarter ending 2026-12-26)",
+      "fail_direction": null,
+      "target_date": "2027-01-28",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2027-01-28",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "123mYEnRLM2LLYsJW3K6oyYh8uP1fngj732iG638ondo",
+          "symbol": "AAPLon",
+          "issuer": "Ondo Global Markets"
+        },
+        {
+          "mint": "XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp",
+          "symbol": "AAPLx",
+          "issuer": "xStocks (Backed / Kraken)"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_c1ebaf78",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "ABBV",
+      "company_name": "AbbVie Inc.",
+      "week_of": null,
+      "success_condition": "Q4 FY2026 Revenue >= 17,450 USD mn (quarter ending 2026-12-31)",
+      "fail_direction": null,
+      "target_date": "2027-02-03",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2027-02-03",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "MFerpBVGKZh2jXN7cbJdXRXQTp6j6pbSnSZrfWrondo",
+          "symbol": "ABBVon",
+          "issuer": "Ondo Global Markets"
+        },
+        {
+          "mint": "XswbinNKyPmzTa5CskMbCPvMW6G5CMnZXZEeQSSQoie",
+          "symbol": "ABBVx",
+          "issuer": "xStocks (Backed / Kraken)"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_ac4b4d9f",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "ABNB",
+      "company_name": "Airbnb, Inc.",
+      "week_of": null,
+      "success_condition": "Q4 FY2026 Revenue >= 3,222 USD mn (quarter ending 2026-12-31)",
+      "fail_direction": null,
+      "target_date": "2027-02-11",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2027-02-11",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "128qNYovdGv2YqayErcJgU7gDwbNVX1VuoxbtWz8ondo",
+          "symbol": "ABNBon",
+          "issuer": "Ondo Global Markets"
+        },
+        {
+          "mint": "XscSc1zjbVizEnhCzzehJ9fzztm3WRKdn9pjmriKDuN",
+          "symbol": "ABNBx",
+          "issuer": "xStocks (Backed / Kraken)"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_d1f4eccf",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "week_of": null,
+      "success_condition": "Q4 FY2026 Revenue >= 12,600 USD mn (quarter ending 2026-12-31)",
+      "fail_direction": null,
+      "target_date": "2027-01-21",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2027-01-21",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "129gRoHKhVg7CvPMrqVsEB4uYZo6zV4yDZX6NBg9ondo",
+          "symbol": "ABTon",
+          "issuer": "Ondo Global Markets"
+        },
+        {
+          "mint": "XsHtf5RpxsQ7jeJ9ivNewouZKJHbPxhPoEy6yYvULr7",
+          "symbol": "ABTx",
+          "issuer": "xStocks (Backed / Kraken)"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_7fd1b931",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "ACGL",
+      "company_name": "Arch Capital Group Ltd.",
+      "week_of": null,
+      "success_condition": "Q4 FY2026 Revenue >= 4,500 USD mn (quarter ending 2026-12-31)",
+      "fail_direction": null,
+      "target_date": "2027-02-10",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2027-02-10",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "Xs7Dude9fBWENN3Vi25cwQmAF5BXR2zXrFMgPjKWmSS",
+          "symbol": "ACGLx",
+          "issuer": "xStocks (Backed / Kraken)"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_3e23c7a7",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "ACHR",
+      "company_name": "Archer Aviation Inc.",
+      "week_of": null,
+      "success_condition": "Q4 FY2026 Revenue >= 5 USD mn (quarter ending 2026-12-31)",
+      "fail_direction": null,
+      "target_date": "2027-02-25",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2027-02-25",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "KcCVQxG9LhFYP5o9DWFKTFgFShPPQkDEemVbiFyondo",
+          "symbol": "ACHRon",
+          "issuer": "Ondo Global Markets"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_ad287238",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "ACI",
+      "company_name": "Albertsons Companies, Inc.",
+      "week_of": null,
+      "success_condition": "Q3 FY2026 Revenue >= 19,100 USD mn (quarter ending 2026-12-05)",
+      "fail_direction": null,
+      "target_date": "2027-01-13",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2027-01-13",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "XskLGW9tMrGCeubcptv4iSP7dQRqS7VHPiW6TWhdeBk",
+          "symbol": "ACIx",
+          "issuer": "xStocks (Backed / Kraken)"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_eb1c171c",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "ACLS",
+      "company_name": "Axcelis Technologies Inc",
+      "week_of": null,
+      "success_condition": "Q4 FY2026 Revenue >= 275 USD mn (quarter ending 2026-12-31)",
+      "fail_direction": null,
+      "target_date": "2027-02-04",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2027-02-04",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "jDoTgDRKSgVzkKdkaHZL3DiVmDM4YtYWwRG6Tgfondo",
+          "symbol": "ACLSon",
+          "issuer": "Ondo Global Markets"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_691e8074",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "ACMR",
+      "company_name": "ACM Research, Inc.",
+      "week_of": null,
+      "success_condition": "Q4 FY2026 Revenue >= 348.1 USD mn (quarter ending 2026-12-31)",
+      "fail_direction": null,
+      "target_date": "2027-02-26",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2027-02-26",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "nkbH2doD7nU4CkKVwzmd6UV4d2AaGy24NHzsh6tondo",
+          "symbol": "ACMRon",
+          "issuer": "Ondo Global Markets"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_6e14cbdf",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "ACN",
+      "company_name": "Accenture plc",
+      "week_of": null,
+      "success_condition": "Q1 FY2027 Revenue >= 18,950 USD mn (quarter ending 2026-11-30)",
+      "fail_direction": null,
+      "target_date": "2026-12-17",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2026-12-17",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "12LxMMJYVSf4LoeqjFE47BQQNRciaH9E3nbDfjH4ondo",
+          "symbol": "ACNon",
+          "issuer": "Ondo Global Markets"
+        },
+        {
+          "mint": "Xs5UJzmCRQ8DWZjskExdSQDnbE6iLkRu2jjrRAB1JSU",
+          "symbol": "ACNx",
+          "issuer": "xStocks (Backed / Kraken)"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_b2b2863a",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "ADBE",
+      "company_name": "Adobe Inc.",
+      "week_of": null,
+      "success_condition": "Q4 FY2026 Revenue >= 6,800 USD mn (quarter ending 2026-11-27)",
+      "fail_direction": null,
+      "target_date": "2026-12-10",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2026-12-10",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "12Rh6JhfW4X5fKP16bbUdb4pcVCKDHFB48x8GG33ondo",
+          "symbol": "ADBEon",
+          "issuer": "Ondo Global Markets"
+        },
+        {
+          "mint": "XsDZMGEU8zadWFCkTtPBoPWYcUX3JHVmghnwf2Mve2q",
+          "symbol": "ADBEx",
+          "issuer": "xStocks (Backed / Kraken)"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_dfec41af",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "ADC",
+      "company_name": "Agree Realty Corp",
+      "week_of": null,
+      "success_condition": "Q4 FY2026 Revenue >= 215 USD mn (quarter ending 2026-12-31)",
+      "fail_direction": null,
+      "target_date": "2027-02-09",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2027-02-09",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "XsBhE7XXLouCZ4FPESGHjZnJ2wsZEQY1tAf4iFTncUm",
+          "symbol": "ADCx",
+          "issuer": "xStocks (Backed / Kraken)"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_64a699f1",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "ADI",
+      "company_name": "Analog Devices Inc",
+      "week_of": null,
+      "success_condition": "Q4 FY2026 Revenue >= 4,200 USD mn (quarter ending 2026-10-31)",
+      "fail_direction": null,
+      "target_date": "2026-11-24",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2026-11-24",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "LmTMwmZLNZszn3qpjmnbhfP12U4qWDivaEBwSBSondo",
+          "symbol": "ADIon",
+          "issuer": "Ondo Global Markets"
+        },
+        {
+          "mint": "Xs3CytsvJshAYy1TQjq2o2yVWCyEGinNpvkB6f3Qs31",
+          "symbol": "ADIx",
+          "issuer": "xStocks (Backed / Kraken)"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_a67e84e8",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "ADP",
+      "company_name": "Automatic Data Processing Inc",
+      "week_of": null,
+      "success_condition": "Q2 FY2027 Revenue >= 5,627 USD mn (quarter ending 2026-12-31)",
+      "fail_direction": null,
+      "target_date": "2027-01-27",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2027-01-27",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "XsCBDrb61PyQqTJp7uHhD4vj1MkD5UK6jpxUBbgG7i1",
+          "symbol": "ADPx",
+          "issuer": "xStocks (Backed / Kraken)"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_c2268687",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "ADSK",
+      "company_name": "Autodesk, Inc.",
+      "week_of": null,
+      "success_condition": "Q3 FY2027 Revenue >= 2,125 USD mn (quarter ending 2026-10-31)",
+      "fail_direction": null,
+      "target_date": "2026-11-24",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2026-11-24",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "Xs2jBYo5VxMmuNjpBnMShsLB26dtK75bt42ag93ZdHU",
+          "symbol": "ADSKx",
+          "issuer": "xStocks (Backed / Kraken)"
+        }
+      ]
+    },
+    {
+      "id": "ext:ext_115dd0cd",
+      "kind": "ext",
+      "population": "Physical AI（外部 catalyst）",
+      "ticker": "ADT",
+      "company_name": "ADT Inc.",
+      "week_of": null,
+      "success_condition": "Q4 FY2026 Revenue >= 1,340 USD mn (quarter ending 2026-12-31)",
+      "fail_direction": null,
+      "target_date": "2027-02-25",
+      "target_date_source": "article（estimated）",
+      "target_date_confirmed": null,
+      "catalyst_type": "earnings",
+      "source": "research:stocks-us",
+      "deadline": "2027-02-25",
+      "date_verified": false,
+      "mints": [
+        {
+          "mint": "XsS5AVn1okkChsV6por4o4bNck5zVfdn3Gt2E4DXdAF",
+          "symbol": "ADTx",
+          "issuer": "xStocks (Backed / Kraken)"
+        }
+      ]
     }
   ]
 }
