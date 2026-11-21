@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-21",
   "source": "OSD public repository (kato9292929/onchain-stock-data)",
   "conditions": [
     {
@@ -30,70 +30,6 @@
         {
           "mint": "XsiRaD8qZm1P3KViowDYFS8rZ8BYT2g7ZEeyztthRye",
           "symbol": "COSTx",
-          "issuer": "xStocks (Backed / Kraken)"
-        }
-      ]
-    },
-    {
-      "id": "us:2026-11-09:CRWV",
-      "kind": "us",
-      "population": "US Weekly Selection",
-      "ticker": "CRWV",
-      "company_name": "CoreWeave",
-      "week_of": "2026-11-09",
-      "success_condition": "11月中旬のQ3 2026決算で、売上高が会社ガイダンス下限34.5億ドル以上なら当たり。",
-      "fail_direction": null,
-      "target_date": "2026-11-20",
-      "target_date_source": "model",
-      "target_date_confirmed": null,
-      "target_date_confirmed_source": null,
-      "target_date_checked_at": null,
-      "thesis": "11月中旬のQ3 2026決算で、売上高が会社ガイダンス下限34.5億ドル以上なら当たり。",
-      "condition_source": "thesis",
-      "deadline": "2026-11-20",
-      "date_verified": false,
-      "catalyst_type": null,
-      "mints": [
-        {
-          "mint": "BfPGpgNyxe6rjAru1EJarjSBAcCABuMF5L32v7nondo",
-          "symbol": "CRWVon",
-          "issuer": "Ondo Global Markets"
-        },
-        {
-          "mint": "Xs3trfdPXSZuxBJsgau6HRfu8SdrCirkwHpPNgSpJz9",
-          "symbol": "CRWVx",
-          "issuer": "xStocks (Backed / Kraken)"
-        }
-      ]
-    },
-    {
-      "id": "us:2026-11-09:WYFI",
-      "kind": "us",
-      "population": "US Weekly Selection",
-      "ticker": "WYFI",
-      "company_name": "WhiteFiber",
-      "week_of": "2026-11-09",
-      "success_condition": "11月中旬のQ3 2026決算で、NC-1の課金対象容量が40MW以上と開示されれば当たり。",
-      "fail_direction": null,
-      "target_date": "2026-11-20",
-      "target_date_source": "model",
-      "target_date_confirmed": null,
-      "target_date_confirmed_source": null,
-      "target_date_checked_at": null,
-      "thesis": "11月中旬のQ3 2026決算で、NC-1の課金対象容量が40MW以上と開示されれば当たり。",
-      "condition_source": "thesis",
-      "deadline": "2026-11-20",
-      "date_verified": false,
-      "catalyst_type": null,
-      "mints": [
-        {
-          "mint": "jtnRMv1U3bJHQCsi47E6Lf8Nzkaqsisef7SkHBgondo",
-          "symbol": "WYFIon",
-          "issuer": "Ondo Global Markets"
-        },
-        {
-          "mint": "XsLkMYrJVUPJv23tH3PB167BV6kpdubPe5F3KfVvSFN",
-          "symbol": "WYFIx",
           "issuer": "xStocks (Backed / Kraken)"
         }
       ]
@@ -985,35 +921,6 @@
       "mints": []
     },
     {
-      "id": "ext:ext_f0b8bc45",
-      "kind": "ext",
-      "population": "Physical AI（外部 catalyst）",
-      "ticker": "CRWV",
-      "company_name": "CoreWeave",
-      "week_of": null,
-      "success_condition": "第3四半期売上が34.5〜36億ドルに入り、通期ガイダンス124〜132億ドルを維持",
-      "fail_direction": "第3四半期の未達、または通期ガイダンスの引き下げ",
-      "target_date": "2026-11-20",
-      "target_date_source": "article（estimated）",
-      "target_date_confirmed": null,
-      "catalyst_type": "event",
-      "source": "theme:neocloud-us",
-      "deadline": "2026-11-20",
-      "date_verified": false,
-      "mints": [
-        {
-          "mint": "BfPGpgNyxe6rjAru1EJarjSBAcCABuMF5L32v7nondo",
-          "symbol": "CRWVon",
-          "issuer": "Ondo Global Markets"
-        },
-        {
-          "mint": "Xs3trfdPXSZuxBJsgau6HRfu8SdrCirkwHpPNgSpJz9",
-          "symbol": "CRWVx",
-          "issuer": "xStocks (Backed / Kraken)"
-        }
-      ]
-    },
-    {
       "id": "ext:ext_c4752beb",
       "kind": "ext",
       "population": "Physical AI（外部 catalyst）",
@@ -1314,35 +1221,6 @@
           "mint": "kTMQKHhnWPTvZsfiZfcdeHdG6dMgZV27wXSiC3Yondo",
           "symbol": "HIVEon",
           "issuer": "Ondo Global Markets"
-        }
-      ]
-    },
-    {
-      "id": "ext:ext_ab787473",
-      "kind": "ext",
-      "population": "Physical AI（外部 catalyst）",
-      "ticker": "WYFI",
-      "company_name": "WhiteFiber",
-      "week_of": null,
-      "success_condition": "第3四半期決算で NC-1 の40MW全量の課金を確認",
-      "fail_direction": "40MW の課金開始の第4四半期以降へのずれ込み",
-      "target_date": "2026-11-20",
-      "target_date_source": "article（estimated）",
-      "target_date_confirmed": null,
-      "catalyst_type": "event",
-      "source": "theme:neocloud-us",
-      "deadline": "2026-11-20",
-      "date_verified": false,
-      "mints": [
-        {
-          "mint": "jtnRMv1U3bJHQCsi47E6Lf8Nzkaqsisef7SkHBgondo",
-          "symbol": "WYFIon",
-          "issuer": "Ondo Global Markets"
-        },
-        {
-          "mint": "XsLkMYrJVUPJv23tH3PB167BV6kpdubPe5F3KfVvSFN",
-          "symbol": "WYFIx",
-          "issuer": "xStocks (Backed / Kraken)"
         }
       ]
     },
