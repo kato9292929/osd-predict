@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "source": "OSD public repository (kato9292929/onchain-stock-data)",
   "conditions": [
     {
@@ -25,7 +25,7 @@
         {
           "mint": "CZEB3WNZuF2Yz1z2H81RcCk8T7fsw82KB33zqamASVsg",
           "symbol": "COST.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "6btaz134wjHkR8sqhAYrtSM6tavftfxnRvnyMd8ondo",
@@ -329,7 +329,7 @@
         {
           "mint": "TSLAqBbv4CNCnzWFeB7LmydAyEiNMJtve7DYKLpdK4S",
           "symbol": "TSLA.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "KeGv7bsfR4MheC1CkmnAVceoApjrkvBhHYjWb67ondo",
@@ -950,7 +950,7 @@
         {
           "mint": "NBiSF3UaVUFtRzHwAfxyHsBCAZWGEKnMpewAE4oh7BG",
           "symbol": "NBIS.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "DiRshqNDE68bWbGdLHm1GwQ76MvWQG3af6w1NdQondo",
@@ -984,7 +984,7 @@
         {
           "mint": "NBiSF3UaVUFtRzHwAfxyHsBCAZWGEKnMpewAE4oh7BG",
           "symbol": "NBIS.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "DiRshqNDE68bWbGdLHm1GwQ76MvWQG3af6w1NdQondo",
@@ -1018,7 +1018,7 @@
         {
           "mint": "RENzhrJQgmAnfcLhU1U5XwAMc6TC15UA6jCbPBaasnj",
           "symbol": "IREN.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "13QHuepdhtJ3urNsV9i1hdL8nQoca2G7ZaLzb5FYondo",
@@ -1052,7 +1052,7 @@
         {
           "mint": "APLDFP4BWhChkUay6BpL8hbPBb2mbTq3gbnEucFDsoaY",
           "symbol": "APLD.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "B6WqvLGXdGqpw7qgxeb5EGiRZEYo2apWpQybjYuondo",
@@ -1086,7 +1086,7 @@
         {
           "mint": "Cpf6oMSS57wUT8dr6Gq9jjTM8DKEefxtT3TrUgsexox7",
           "symbol": "CIFR.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "WNZBSkNBNP3Ct1pcFn6Fu4sZQFhnu48EsM9voCEondo",
@@ -1115,7 +1115,7 @@
         {
           "mint": "WULFeyfrj1VJKD9HhRTcW8R4g5HefUA11HDEdBv2WxD",
           "symbol": "WULF.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "exYfSJt6Fgfhfnp3bAD4roYy97hLF9npjYaLyEXondo",
@@ -1149,7 +1149,7 @@
         {
           "mint": "C5pdJt8XQNMY9UUZRMqxf9mUveUje2PSoPf7SLMFRovK",
           "symbol": "CORZ.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "f4ucqqnktrkdDAnwqcAAiA9Lggz6NAHJ3zFwipnondo",
@@ -1183,7 +1183,7 @@
         {
           "mint": "HUTEwGqjjKGyJ4nj5SafkgLytsZWFyLcckpxEUtz3JUk",
           "symbol": "HUT.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "f7iz4BQsnjw95EUyFiBKAnKgo7oBrycfzQdtmDwondo",
@@ -1217,7 +1217,7 @@
         {
           "mint": "HUTEwGqjjKGyJ4nj5SafkgLytsZWFyLcckpxEUtz3JUk",
           "symbol": "HUT.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "f7iz4BQsnjw95EUyFiBKAnKgo7oBrycfzQdtmDwondo",
@@ -1299,7 +1299,7 @@
         {
           "mint": "WYFbpGaP3Kob3ffafjC5WPnqUKiZ5qECBmjTedLbh1L",
           "symbol": "WYFI.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "jtnRMv1U3bJHQCsi47E6Lf8Nzkaqsisef7SkHBgondo",
@@ -1585,7 +1585,7 @@
         {
           "mint": "CRWVJeR2yEZuDUKYfGuKCHvLz8ywn4LGvovHfy5WiFmi",
           "symbol": "CRWV.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "BfPGpgNyxe6rjAru1EJarjSBAcCABuMF5L32v7nondo",
@@ -1619,7 +1619,7 @@
         {
           "mint": "NBiSF3UaVUFtRzHwAfxyHsBCAZWGEKnMpewAE4oh7BG",
           "symbol": "NBIS.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "DiRshqNDE68bWbGdLHm1GwQ76MvWQG3af6w1NdQondo",
@@ -1653,7 +1653,7 @@
         {
           "mint": "WULFeyfrj1VJKD9HhRTcW8R4g5HefUA11HDEdBv2WxD",
           "symbol": "WULF.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "exYfSJt6Fgfhfnp3bAD4roYy97hLF9npjYaLyEXondo",
@@ -1687,7 +1687,7 @@
         {
           "mint": "C5pdJt8XQNMY9UUZRMqxf9mUveUje2PSoPf7SLMFRovK",
           "symbol": "CORZ.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "f4ucqqnktrkdDAnwqcAAiA9Lggz6NAHJ3zFwipnondo",
@@ -1721,7 +1721,7 @@
         {
           "mint": "HUTEwGqjjKGyJ4nj5SafkgLytsZWFyLcckpxEUtz3JUk",
           "symbol": "HUT.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "f7iz4BQsnjw95EUyFiBKAnKgo7oBrycfzQdtmDwondo",
@@ -1779,7 +1779,7 @@
         {
           "mint": "WYFbpGaP3Kob3ffafjC5WPnqUKiZ5qECBmjTedLbh1L",
           "symbol": "WYFI.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "jtnRMv1U3bJHQCsi47E6Lf8Nzkaqsisef7SkHBgondo",
@@ -2011,7 +2011,7 @@
         {
           "mint": "CRWVJeR2yEZuDUKYfGuKCHvLz8ywn4LGvovHfy5WiFmi",
           "symbol": "CRWV.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "BfPGpgNyxe6rjAru1EJarjSBAcCABuMF5L32v7nondo",
@@ -2045,7 +2045,7 @@
         {
           "mint": "NBiSF3UaVUFtRzHwAfxyHsBCAZWGEKnMpewAE4oh7BG",
           "symbol": "NBIS.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "DiRshqNDE68bWbGdLHm1GwQ76MvWQG3af6w1NdQondo",
@@ -2079,7 +2079,7 @@
         {
           "mint": "WULFeyfrj1VJKD9HhRTcW8R4g5HefUA11HDEdBv2WxD",
           "symbol": "WULF.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "exYfSJt6Fgfhfnp3bAD4roYy97hLF9npjYaLyEXondo",
@@ -2137,7 +2137,7 @@
         {
           "mint": "WYFbpGaP3Kob3ffafjC5WPnqUKiZ5qECBmjTedLbh1L",
           "symbol": "WYFI.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "jtnRMv1U3bJHQCsi47E6Lf8Nzkaqsisef7SkHBgondo",
@@ -2800,35 +2800,6 @@
       "mints": []
     },
     {
-      "id": "ext:ext_7da47972",
-      "kind": "ext",
-      "population": "Physical AI（外部 catalyst）",
-      "ticker": "A",
-      "company_name": "Agilent Technologies, Inc.",
-      "week_of": null,
-      "success_condition": "Q4 FY2026 Revenue >= 1,980 USD mn (quarter ending 2026-10-31)",
-      "fail_direction": null,
-      "target_date": "2026-11-24",
-      "target_date_source": "article（estimated）",
-      "target_date_confirmed": null,
-      "catalyst_type": "earnings",
-      "source": "research:stocks-us",
-      "deadline": "2026-11-24",
-      "date_verified": false,
-      "mints": [
-        {
-          "mint": "AuzVdTnWMapP5B9PatcL7a2kW8Rym8SZabYSqfHPVo7w",
-          "symbol": "A.US",
-          "issuer": "Backpack Securities (Sunrise)"
-        },
-        {
-          "mint": "Xs5drDwMFxkcChq5cU49EX2oTQUVWQ64qsSL5bVQoS3",
-          "symbol": "Ax",
-          "issuer": "xStocks (Backed / Kraken)"
-        }
-      ]
-    },
-    {
       "id": "ext:ext_9f528845",
       "kind": "ext",
       "population": "Physical AI（外部 catalyst）",
@@ -2848,7 +2819,7 @@
         {
           "mint": "AA8fNXwHo2TFgzW77Qggq6J2vQZDYZ88fX3Rt1VAS69H",
           "symbol": "AA.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "Xs2XDRGh6AhivmYgaVa8woDGKGccR1WnnGnw9vqSWD9",
@@ -2877,7 +2848,7 @@
         {
           "mint": "AALFWGekLbAgSW54dAmCwhCXKfX5z16N3wWNpMB5rdYK",
           "symbol": "AAL.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "9wYZetvT8J2ptfsRca5gzLBGvcUug38mp9yT3xaondo",
@@ -2911,7 +2882,7 @@
         {
           "mint": "AASUXcQnUvyQi8KLTs42pm5i4oz3Nsmrnh1GB5XZtvHP",
           "symbol": "AAOI.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "YuFZvc8JCN3a6BUAqwnbY4AnhuVEXD4V7QnBTmwondo",
@@ -2974,7 +2945,7 @@
         {
           "mint": "AAPLEDt8RpzPgXyhvFzkMBofvFSQw9gpeMCoUdPdLnB8",
           "symbol": "AAPL.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "123mYEnRLM2LLYsJW3K6oyYh8uP1fngj732iG638ondo",
@@ -3008,7 +2979,7 @@
         {
           "mint": "ABBVwWHRKef4fAGmcFgkXpD7K3BZgAufkHTVuP2DyaRd",
           "symbol": "ABBV.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "MFerpBVGKZh2jXN7cbJdXRXQTp6j6pbSnSZrfWrondo",
@@ -3042,7 +3013,7 @@
         {
           "mint": "ABNB56TteaTZG1S3DY2W8VMncQmHMvNCGaZgAba49CLP",
           "symbol": "ABNB.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "128qNYovdGv2YqayErcJgU7gDwbNVX1VuoxbtWz8ondo",
@@ -3076,7 +3047,7 @@
         {
           "mint": "ABTsKmCVRdFcq9dgiCRAmgGhwM8miifXTinYaBaN9N6j",
           "symbol": "ABT.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "129gRoHKhVg7CvPMrqVsEB4uYZo6zV4yDZX6NBg9ondo",
@@ -3110,7 +3081,7 @@
         {
           "mint": "ACGLeKsiaTBQHwYpBC6sNJVZ3Pv3NzYqSnQEDpg7V7eW",
           "symbol": "ACGL.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "Xs7Dude9fBWENN3Vi25cwQmAF5BXR2zXrFMgPjKWmSS",
@@ -3139,7 +3110,7 @@
         {
           "mint": "ACHRpBkJ6QKaoFZpn4JvTnrnfE8s2JXSiNZna1W6JnC9",
           "symbol": "ACHR.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "KcCVQxG9LhFYP5o9DWFKTFgFShPPQkDEemVbiFyondo",
@@ -3192,7 +3163,7 @@
         {
           "mint": "ACLS1PWgeBiBtt5j6iwWLhyNmu8F9Vcqs4NMFGkxWw4R",
           "symbol": "ACLS.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "jDoTgDRKSgVzkKdkaHZL3DiVmDM4YtYWwRG6Tgfondo",
@@ -3221,7 +3192,7 @@
         {
           "mint": "ACMRGCk5t47AZKhAcxnCa8j6LzCu2Lc9PwDnk21UKsXD",
           "symbol": "ACMR.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "nkbH2doD7nU4CkKVwzmd6UV4d2AaGy24NHzsh6tondo",
@@ -3250,7 +3221,7 @@
         {
           "mint": "ACNiE9t6PQb38U5ETeUHiHKFc6bj1zjoDqLVvtqhjhPa",
           "symbol": "ACN.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "12LxMMJYVSf4LoeqjFE47BQQNRciaH9E3nbDfjH4ondo",
@@ -3284,7 +3255,7 @@
         {
           "mint": "ADBEwXnAgdFVj42y3ZCBouUjZ133875hVrbdQGpQfRCk",
           "symbol": "ADBE.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "12Rh6JhfW4X5fKP16bbUdb4pcVCKDHFB48x8GG33ondo",
@@ -3323,40 +3294,6 @@
       ]
     },
     {
-      "id": "ext:ext_64a699f1",
-      "kind": "ext",
-      "population": "Physical AI（外部 catalyst）",
-      "ticker": "ADI",
-      "company_name": "Analog Devices Inc",
-      "week_of": null,
-      "success_condition": "Q4 FY2026 Revenue >= 4,200 USD mn (quarter ending 2026-10-31)",
-      "fail_direction": null,
-      "target_date": "2026-11-24",
-      "target_date_source": "article（estimated）",
-      "target_date_confirmed": null,
-      "catalyst_type": "earnings",
-      "source": "research:stocks-us",
-      "deadline": "2026-11-24",
-      "date_verified": false,
-      "mints": [
-        {
-          "mint": "ADqtQq3fZLZzGHSMzhZwHx5v63dJes3wWRxRAHuDTJZH",
-          "symbol": "ADI.US",
-          "issuer": "Backpack Securities (Sunrise)"
-        },
-        {
-          "mint": "LmTMwmZLNZszn3qpjmnbhfP12U4qWDivaEBwSBSondo",
-          "symbol": "ADIon",
-          "issuer": "Ondo Global Markets"
-        },
-        {
-          "mint": "Xs3CytsvJshAYy1TQjq2o2yVWCyEGinNpvkB6f3Qs31",
-          "symbol": "ADIx",
-          "issuer": "xStocks (Backed / Kraken)"
-        }
-      ]
-    },
-    {
       "id": "ext:ext_a67e84e8",
       "kind": "ext",
       "population": "Physical AI（外部 catalyst）",
@@ -3376,40 +3313,11 @@
         {
           "mint": "ADPNB21qRB5SLAirm12jWjWJXvbmSyawoE79DoHV98YX",
           "symbol": "ADP.US",
-          "issuer": "Backpack Securities (Sunrise)"
+          "issuer": "Backpack Securities"
         },
         {
           "mint": "XsCBDrb61PyQqTJp7uHhD4vj1MkD5UK6jpxUBbgG7i1",
           "symbol": "ADPx",
-          "issuer": "xStocks (Backed / Kraken)"
-        }
-      ]
-    },
-    {
-      "id": "ext:ext_c2268687",
-      "kind": "ext",
-      "population": "Physical AI（外部 catalyst）",
-      "ticker": "ADSK",
-      "company_name": "Autodesk, Inc.",
-      "week_of": null,
-      "success_condition": "Q3 FY2027 Revenue >= 2,125 USD mn (quarter ending 2026-10-31)",
-      "fail_direction": null,
-      "target_date": "2026-11-24",
-      "target_date_source": "article（estimated）",
-      "target_date_confirmed": null,
-      "catalyst_type": "earnings",
-      "source": "research:stocks-us",
-      "deadline": "2026-11-24",
-      "date_verified": false,
-      "mints": [
-        {
-          "mint": "ADSKrpqTgdmeHV9a9kL45C7WjYzQqkcH2KHG6Hy5FjMX",
-          "symbol": "ADSK.US",
-          "issuer": "Backpack Securities (Sunrise)"
-        },
-        {
-          "mint": "Xs2jBYo5VxMmuNjpBnMShsLB26dtK75bt42ag93ZdHU",
-          "symbol": "ADSKx",
           "issuer": "xStocks (Backed / Kraken)"
         }
       ]
